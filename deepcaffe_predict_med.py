@@ -109,6 +109,7 @@ def classify_image(image_file):
 def get_video_list_file(x):
     return {
         'event': meta_dir + 'event_video_list.txt',
+        'eventbg': meta_dir + 'eventbg_list.txt',
         'kindredtest14': meta_dir + 'kindredtest14_list.txt',
         'medtest14': meta_dir + 'medtest14_list.txt',
     }[x]
