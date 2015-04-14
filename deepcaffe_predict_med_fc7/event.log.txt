@@ -1,0 +1,118 @@
+2015-01-23 18:11:16,369 : INFO : Start [deepcaffe_predict_med_fc7.py event 108 216]
+2015-01-23 18:21:01,161 : INFO : Start [deepcaffe_predict_med_fc7.py event 216 324]
+2015-01-23 18:24:31,080 : INFO : Start [deepcaffe_predict_med_fc7.py event 324 432]
+2015-01-23 18:43:00,871 : INFO : Start [deepcaffe_predict_med_fc7.py event 432 540]
+2015-01-23 18:45:15,969 : INFO : Start [deepcaffe_predict_med_fc7.py event 648 756]
+2015-01-23 18:48:46,127 : INFO : Start [deepcaffe_predict_med_fc7.py event 864 972]
+2015-01-23 18:50:01,045 : INFO : Start [deepcaffe_predict_med_fc7.py event 972 1080]
+2015-01-23 18:53:31,525 : INFO : Start [deepcaffe_predict_med_fc7.py event 1080 1188]
+2015-01-23 18:55:01,112 : INFO : Start [deepcaffe_predict_med_fc7.py event 1188 1296]
+2015-01-23 18:58:31,022 : INFO : Start [deepcaffe_predict_med_fc7.py event 1296 1404]
+2015-01-23 19:01:01,846 : INFO : Start [deepcaffe_predict_med_fc7.py event 1404 1512]
+2015-01-23 19:01:46,048 : INFO : Start [deepcaffe_predict_med_fc7.py event 1512 1620]
+2015-01-23 19:02:45,865 : INFO : Start [deepcaffe_predict_med_fc7.py event 1620 1728]
+2015-01-23 19:03:31,533 : INFO : Start [deepcaffe_predict_med_fc7.py event 1728 1836]
+2015-01-23 19:04:47,140 : INFO : Start [deepcaffe_predict_med_fc7.py event 1944 2052]
+2015-01-23 19:05:46,574 : INFO : Start [deepcaffe_predict_med_fc7.py event 2052 2160]
+2015-01-23 19:07:01,800 : INFO : Start [deepcaffe_predict_med_fc7.py event 2160 2268]
+2015-01-23 19:09:31,331 : INFO : Start [deepcaffe_predict_med_fc7.py event 2376 2484]
+2015-01-23 19:11:46,258 : INFO : Start [deepcaffe_predict_med_fc7.py event 2484 2592]
+2015-01-23 19:13:01,145 : INFO : Start [deepcaffe_predict_med_fc7.py event 2592 2700]
+2015-01-23 19:13:46,408 : INFO : Start [deepcaffe_predict_med_fc7.py event 2700 2808]
+2015-01-23 19:14:31,148 : INFO : Start [deepcaffe_predict_med_fc7.py event 2808 2916]
+2015-01-23 19:15:02,378 : INFO : Start [deepcaffe_predict_med_fc7.py event 2916 3024]
+2015-01-23 19:15:31,282 : INFO : Start [deepcaffe_predict_med_fc7.py event 3240 3348]
+2015-01-23 19:17:16,251 : INFO : Start [deepcaffe_predict_med_fc7.py event 3348 3456]
+2015-01-23 19:19:45,985 : INFO : Start [deepcaffe_predict_med_fc7.py event 3564 3672]
+2015-01-23 19:21:16,272 : INFO : Start [deepcaffe_predict_med_fc7.py event 3672 3780]
+2015-01-23 19:24:30,972 : INFO : Start [deepcaffe_predict_med_fc7.py event 3888 3996]
+2015-01-23 19:25:01,696 : INFO : Start [deepcaffe_predict_med_fc7.py event 3996 4104]
+2015-01-23 19:30:31,189 : INFO : Start [deepcaffe_predict_med_fc7.py event 4212 4320]
+2015-01-23 19:31:16,073 : INFO : Start [deepcaffe_predict_med_fc7.py event 4320 4428]
+2015-01-23 19:32:15,904 : INFO : Start [deepcaffe_predict_med_fc7.py event 4536 4644]
+2015-01-23 19:33:46,241 : INFO : Start [deepcaffe_predict_med_fc7.py event 4644 4752]
+2015-01-23 19:36:16,509 : INFO : Start [deepcaffe_predict_med_fc7.py event 4752 4860]
+2015-01-23 19:37:16,289 : INFO : Start [deepcaffe_predict_med_fc7.py event 4860 4968]
+2015-01-23 19:37:31,204 : INFO : Start [deepcaffe_predict_med_fc7.py event 4968 5076]
+2015-01-23 19:39:47,640 : INFO : Start [deepcaffe_predict_med_fc7.py event 5076 5184]
+2015-01-23 19:42:01,372 : INFO : Start [deepcaffe_predict_med_fc7.py event 5184 5292]
+2015-01-23 19:42:31,438 : INFO : Start [deepcaffe_predict_med_fc7.py event 5400 5508]
+2015-01-23 19:43:46,014 : INFO : Start [deepcaffe_predict_med_fc7.py event 5508 5616]
+2015-01-23 19:45:17,178 : INFO : Start [deepcaffe_predict_med_fc7.py event 5616 5724]
+2015-01-23 19:47:46,102 : INFO : Start [deepcaffe_predict_med_fc7.py event 5724 5832]
+2015-01-23 19:48:46,082 : INFO : Start [deepcaffe_predict_med_fc7.py event 5832 5940]
+2015-01-23 19:50:31,501 : INFO : Start [deepcaffe_predict_med_fc7.py event 5940 6048]
+2015-01-23 19:53:01,178 : INFO : Start [deepcaffe_predict_med_fc7.py event 6048 6156]
+2015-01-23 20:00:01,213 : INFO : Start [deepcaffe_predict_med_fc7.py event 6156 6264]
+2015-01-23 20:01:46,143 : INFO : Start [deepcaffe_predict_med_fc7.py event 6264 6372]
+2015-01-23 20:02:47,135 : INFO : Start [deepcaffe_predict_med_fc7.py event 6372 6480]
+2015-01-23 20:03:31,101 : INFO : Start [deepcaffe_predict_med_fc7.py event 6480 6588]
+2015-01-23 20:07:16,415 : INFO : Start [deepcaffe_predict_med_fc7.py event 6588 6696]
+2015-01-23 20:10:46,503 : INFO : Start [deepcaffe_predict_med_fc7.py event 6696 6804]
+2015-01-23 20:13:31,194 : INFO : Start [deepcaffe_predict_med_fc7.py event 6804 6912]
+2015-01-23 20:23:47,081 : INFO : Start [deepcaffe_predict_med_fc7.py event 6912 6964]
+2015-01-23 22:39:59,485 : INFO : End [deepcaffe_predict_med_fc7.py event 540 648]. Elapsed: 14096.4015918. Processed: 5485 frames. Average: 2.570 s/KF
+2015-01-23 22:52:34,127 : INFO : End [deepcaffe_predict_med_fc7.py event 1080 1188]. Elapsed: 14340.2335651. Processed: 5461 frames. Average: 2.626 s/KF
+2015-01-23 23:00:00,776 : INFO : End [deepcaffe_predict_med_fc7.py event 648 756]. Elapsed: 15282.973891. Processed: 5916 frames. Average: 2.583 s/KF
+2015-01-23 23:30:43,779 : INFO : End [deepcaffe_predict_med_fc7.py event 6912 6964]. Elapsed: 11214.3620129. Processed: 4252 frames. Average: 2.637 s/KF
+2015-01-23 23:39:25,569 : INFO : End [deepcaffe_predict_med_fc7.py event 2052 2160]. Elapsed: 16416.3667881. Processed: 6214 frames. Average: 2.642 s/KF
+2015-01-23 23:45:11,776 : INFO : End [deepcaffe_predict_med_fc7.py event 1944 2052]. Elapsed: 16822.797365. Processed: 6457 frames. Average: 2.605 s/KF
+2015-01-23 23:49:16,492 : INFO : End [deepcaffe_predict_med_fc7.py event 2808 2916]. Elapsed: 16483.5371292. Processed: 6409 frames. Average: 2.572 s/KF
+2015-01-23 23:53:21,564 : INFO : End [deepcaffe_predict_med_fc7.py event 216 324]. Elapsed: 19938.47808. Processed: 6371 frames. Average: 3.130 s/KF
+2015-01-24 00:01:35,346 : INFO : End [deepcaffe_predict_med_fc7.py event 0 108]. Elapsed: 21017.058852. Processed: 6736 frames. Average: 3.120 s/KF
+2015-01-24 00:03:46,409 : INFO : End [deepcaffe_predict_med_fc7.py event 2592 2700]. Elapsed: 17443.3623481. Processed: 5651 frames. Average: 3.087 s/KF
+2015-01-24 00:16:34,493 : INFO : End [deepcaffe_predict_med_fc7.py event 324 432]. Elapsed: 21121.5884719. Processed: 8245 frames. Average: 2.562 s/KF
+2015-01-24 00:26:01,440 : INFO : End [deepcaffe_predict_med_fc7.py event 1836 1944]. Elapsed: 19272.305156. Processed: 7404 frames. Average: 2.603 s/KF
+2015-01-24 00:33:26,827 : INFO : End [deepcaffe_predict_med_fc7.py event 108 216]. Elapsed: 22928.5498149. Processed: 7432 frames. Average: 3.085 s/KF
+2015-01-24 00:37:35,386 : INFO : End [deepcaffe_predict_med_fc7.py event 1404 1512]. Elapsed: 20191.2030032. Processed: 7658 frames. Average: 2.637 s/KF
+2015-01-24 00:42:31,949 : INFO : End [deepcaffe_predict_med_fc7.py event 432 540]. Elapsed: 21569.2835078. Processed: 8415 frames. Average: 2.563 s/KF
+2015-01-24 00:43:32,239 : INFO : End [deepcaffe_predict_med_fc7.py event 3996 4104]. Elapsed: 19108.184037. Processed: 7286 frames. Average: 2.623 s/KF
+2015-01-24 00:58:50,224 : INFO : End [deepcaffe_predict_med_fc7.py event 2160 2268]. Elapsed: 21106.503623. Processed: 6790 frames. Average: 3.108 s/KF
+2015-01-24 00:59:09,563 : INFO : End [deepcaffe_predict_med_fc7.py event 3672 3780]. Elapsed: 20270.916266. Processed: 7710 frames. Average: 2.629 s/KF
+2015-01-24 01:16:14,820 : INFO : End [deepcaffe_predict_med_fc7.py event 2484 2592]. Elapsed: 21866.134903. Processed: 8308 frames. Average: 2.632 s/KF
+2015-01-24 01:16:25,142 : INFO : End [deepcaffe_predict_med_fc7.py event 756 864]. Elapsed: 23286.4905901. Processed: 8904 frames. Average: 2.615 s/KF
+2015-01-24 01:19:22,837 : INFO : End [deepcaffe_predict_med_fc7.py event 1728 1836]. Elapsed: 22549.3878601. Processed: 7263 frames. Average: 3.105 s/KF
+2015-01-24 01:31:49,052 : INFO : End [deepcaffe_predict_med_fc7.py event 864 972]. Elapsed: 24181.0266781. Processed: 7791 frames. Average: 3.104 s/KF
+2015-01-24 01:37:26,287 : INFO : End [deepcaffe_predict_med_fc7.py event 1620 1728]. Elapsed: 23678.5061591. Processed: 7675 frames. Average: 3.085 s/KF
+2015-01-24 01:39:11,161 : INFO : End [deepcaffe_predict_med_fc7.py event 4212 4320]. Elapsed: 22118.1543372. Processed: 8704 frames. Average: 2.541 s/KF
+2015-01-24 01:43:54,549 : INFO : End [deepcaffe_predict_med_fc7.py event 3132 3240]. Elapsed: 23301.35778. Processed: 7401 frames. Average: 3.148 s/KF
+2015-01-24 01:47:02,562 : INFO : End [deepcaffe_predict_med_fc7.py event 3348 3456]. Elapsed: 23384.0785379. Processed: 8884 frames. Average: 2.632 s/KF
+2015-01-24 01:54:48,651 : INFO : End [deepcaffe_predict_med_fc7.py event 6588 6696]. Elapsed: 20849.8601151. Processed: 7924 frames. Average: 2.631 s/KF
+2015-01-24 01:55:37,056 : INFO : End [deepcaffe_predict_med_fc7.py event 2268 2376]. Elapsed: 24378.2395852. Processed: 7735 frames. Average: 3.152 s/KF
+2015-01-24 01:58:28,870 : INFO : End [deepcaffe_predict_med_fc7.py event 1296 1404]. Elapsed: 25196.0527859. Processed: 9811 frames. Average: 2.568 s/KF
+2015-01-24 01:59:46,080 : INFO : End [deepcaffe_predict_med_fc7.py event 2376 2484]. Elapsed: 24612.40062. Processed: 9237 frames. Average: 2.665 s/KF
+2015-01-24 01:59:58,328 : INFO : End [deepcaffe_predict_med_fc7.py event 1512 1620]. Elapsed: 25090.396112. Processed: 8134 frames. Average: 3.085 s/KF
+2015-01-24 02:04:20,717 : INFO : End [deepcaffe_predict_med_fc7.py event 2700 2808]. Elapsed: 24632.396317. Processed: 7924 frames. Average: 3.109 s/KF
+2015-01-24 02:11:38,762 : INFO : End [deepcaffe_predict_med_fc7.py event 5940 6048]. Elapsed: 22865.3510232. Processed: 7326 frames. Average: 3.121 s/KF
+2015-01-24 02:18:01,953 : INFO : End [deepcaffe_predict_med_fc7.py event 5292 5400]. Elapsed: 23728.6310172. Processed: 7637 frames. Average: 3.107 s/KF
+2015-01-24 02:18:24,031 : INFO : End [deepcaffe_predict_med_fc7.py event 972 1080]. Elapsed: 26901.18731. Processed: 10484 frames. Average: 2.566 s/KF
+2015-01-24 02:20:17,293 : INFO : End [deepcaffe_predict_med_fc7.py event 2916 3024]. Elapsed: 25512.9960191. Processed: 8262 frames. Average: 3.088 s/KF
+2015-01-24 02:24:07,563 : INFO : End [deepcaffe_predict_med_fc7.py event 1188 1296]. Elapsed: 26944.556252. Processed: 8737 frames. Average: 3.084 s/KF
+2015-01-24 02:26:54,028 : INFO : End [deepcaffe_predict_med_fc7.py event 5508 5616]. Elapsed: 24185.710927. Processed: 9203 frames. Average: 2.628 s/KF
+2015-01-24 02:45:25,411 : INFO : End [deepcaffe_predict_med_fc7.py event 5724 5832]. Elapsed: 25057.519928. Processed: 9762 frames. Average: 2.567 s/KF
+2015-01-24 02:46:28,252 : INFO : End [deepcaffe_predict_med_fc7.py event 4644 4752]. Elapsed: 25960.085191. Processed: 8362 frames. Average: 3.105 s/KF
+2015-01-24 02:47:37,200 : INFO : End [deepcaffe_predict_med_fc7.py event 6264 6372]. Elapsed: 24349.177577. Processed: 7827 frames. Average: 3.111 s/KF
+2015-01-24 02:47:37,466 : INFO : End [deepcaffe_predict_med_fc7.py event 3456 3564]. Elapsed: 26884.0030541. Processed: 8636 frames. Average: 3.113 s/KF
+2015-01-24 02:51:03,375 : INFO : End [deepcaffe_predict_med_fc7.py event 3564 3672]. Elapsed: 27075.4882331. Processed: 8764 frames. Average: 3.089 s/KF
+2015-01-24 02:51:14,549 : INFO : End [deepcaffe_predict_med_fc7.py event 5400 5508]. Elapsed: 25721.190532. Processed: 8301 frames. Average: 3.099 s/KF
+2015-01-24 02:55:48,555 : INFO : End [deepcaffe_predict_med_fc7.py event 5076 5184]. Elapsed: 26158.5801659. Processed: 8545 frames. Average: 3.061 s/KF
+2015-01-24 02:58:54,880 : INFO : End [deepcaffe_predict_med_fc7.py event 4320 4428]. Elapsed: 26856.9026251. Processed: 8745 frames. Average: 3.071 s/KF
+2015-01-24 02:59:35,880 : INFO : End [deepcaffe_predict_med_fc7.py event 6156 6264]. Elapsed: 25172.784889. Processed: 8201 frames. Average: 3.069 s/KF
+2015-01-24 03:03:37,491 : INFO : End [deepcaffe_predict_med_fc7.py event 5832 5940]. Elapsed: 26089.4925289. Processed: 8420 frames. Average: 3.099 s/KF
+2015-01-24 03:04:22,055 : INFO : End [deepcaffe_predict_med_fc7.py event 5616 5724]. Elapsed: 26342.596276. Processed: 8606 frames. Average: 3.061 s/KF
+2015-01-24 03:09:34,374 : INFO : End [deepcaffe_predict_med_fc7.py event 4968 5076]. Elapsed: 27121.241569. Processed: 8828 frames. Average: 3.072 s/KF
+2015-01-24 03:11:39,265 : INFO : End [deepcaffe_predict_med_fc7.py event 4104 4212]. Elapsed: 27681.0237629. Processed: 8919 frames. Average: 3.104 s/KF
+2015-01-24 03:13:54,934 : INFO : End [deepcaffe_predict_med_fc7.py event 3240 3348]. Elapsed: 28701.7428129. Processed: 9261 frames. Average: 3.099 s/KF
+2015-01-24 03:16:43,146 : INFO : End [deepcaffe_predict_med_fc7.py event 4860 4968]. Elapsed: 27564.9593639. Processed: 8892 frames. Average: 3.100 s/KF
+2015-01-24 03:25:37,543 : INFO : End [deepcaffe_predict_med_fc7.py event 6480 6588]. Elapsed: 26524.542733. Processed: 8496 frames. Average: 3.122 s/KF
+2015-01-24 03:26:23,340 : INFO : End [deepcaffe_predict_med_fc7.py event 3888 3996]. Elapsed: 28910.4662499. Processed: 9432 frames. Average: 3.065 s/KF
+2015-01-24 03:38:58,237 : INFO : End [deepcaffe_predict_med_fc7.py event 4536 4644]. Elapsed: 29200.360954. Processed: 9454 frames. Average: 3.089 s/KF
+2015-01-24 03:41:50,719 : INFO : End [deepcaffe_predict_med_fc7.py event 6696 6804]. Elapsed: 27062.325887. Processed: 8636 frames. Average: 3.134 s/KF
+2015-01-24 03:43:43,462 : INFO : End [deepcaffe_predict_med_fc7.py event 3024 3132]. Elapsed: 30519.1612341. Processed: 9895 frames. Average: 3.084 s/KF
+2015-01-24 03:51:55,297 : INFO : End [deepcaffe_predict_med_fc7.py event 6048 6156]. Elapsed: 28731.8520601. Processed: 11015 frames. Average: 2.608 s/KF
+2015-01-24 03:52:56,256 : INFO : End [deepcaffe_predict_med_fc7.py event 4428 4536]. Elapsed: 30068.2815819. Processed: 9779 frames. Average: 3.075 s/KF
+2015-01-24 03:57:12,181 : INFO : End [deepcaffe_predict_med_fc7.py event 3780 3888]. Elapsed: 30789.107059. Processed: 9858 frames. Average: 3.123 s/KF
+2015-01-24 04:08:01,619 : INFO : End [deepcaffe_predict_med_fc7.py event 4752 4860]. Elapsed: 30703.225631. Processed: 10194 frames. Average: 3.012 s/KF
+2015-01-24 04:08:35,884 : INFO : End [deepcaffe_predict_med_fc7.py event 5184 5292]. Elapsed: 30392.5847051. Processed: 9904 frames. Average: 3.069 s/KF
+2015-01-24 04:13:28,902 : INFO : End [deepcaffe_predict_med_fc7.py event 6372 6480]. Elapsed: 29439.8615601. Processed: 9445 frames. Average: 3.117 s/KF
+2015-01-24 05:13:26,543 : INFO : End [deepcaffe_predict_med_fc7.py event 6804 6912]. Elapsed: 32393.431767. Processed: 10495 frames. Average: 3.087 s/KF

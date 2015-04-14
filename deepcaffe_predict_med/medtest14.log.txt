@@ -1,0 +1,2 @@
+2015-01-23 15:20:50,754 : INFO : running [deepcaffe_predict_med.py medtest14 0 27275]
+2015-01-23 15:45:41,766 : INFO : Run [deepcaffe_predict_med.py_medtest14_0_27275]. Elapsed: 1487.24470592

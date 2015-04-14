@@ -1,0 +1,1 @@
+qsub -pe localslots 4 -e /net/per610a/export/das11f/plsang/codes/deeptest/deepcaffe_predict_scores_sge/error.log -o /net/per610a/export/das11f/plsang/codes/deeptest/deepcaffe_predict_scores_sge/error.log /net/per610a/export/das11f/plsang/codes/deeptest/deepcaffe_predict_scores_sge.sh trecvidmed11 test 0 31800

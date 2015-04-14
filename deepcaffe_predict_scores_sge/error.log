@@ -1,0 +1,517 @@
+Wed Nov 26 13:16:16 JST 2014
+[bc306.hpc.vpl.nii.ac.jp] [1346417] [python deepcaffe_predict.py trecvidmed11 test 0 31800]
+/net/per610a/export/das11f/plsang/codes/deeptest
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I1126 13:16:24.749763  5646 net.cpp:39] Initializing net from parameters: 
+name: "CaffeNet"
+layers {
+  bottom: "data"
+  top: "conv1"
+  name: "conv1"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 96
+    kernel_size: 11
+    stride: 4
+  }
+}
+layers {
+  bottom: "conv1"
+  top: "conv1"
+  name: "relu1"
+  type: RELU
+}
+layers {
+  bottom: "conv1"
+  top: "pool1"
+  name: "pool1"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool1"
+  top: "norm1"
+  name: "norm1"
+  type: LRN
+  lrn_param {
+    local_size: 5
+    alpha: 0.0001
+    beta: 0.75
+  }
+}
+layers {
+  bottom: "norm1"
+  top: "conv2"
+  name: "conv2"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 256
+    pad: 2
+    kernel_size: 5
+    group: 2
+  }
+}
+layers {
+  bottom: "conv2"
+  top: "conv2"
+  name: "relu2"
+  type: RELU
+}
+layers {
+  bottom: "conv2"
+  top: "pool2"
+  name: "pool2"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool2"
+  top: "norm2"
+  name: "norm2"
+  type: LRN
+  lrn_param {
+    local_size: 5
+    alpha: 0.0001
+    beta: 0.75
+  }
+}
+layers {
+  bottom: "norm2"
+  top: "conv3"
+  name: "conv3"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 384
+    pad: 1
+    kernel_size: 3
+  }
+}
+layers {
+  bottom: "conv3"
+  top: "conv3"
+  name: "relu3"
+  type: RELU
+}
+layers {
+  bottom: "conv3"
+  top: "conv4"
+  name: "conv4"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 384
+    pad: 1
+    kernel_size: 3
+    group: 2
+  }
+}
+layers {
+  bottom: "conv4"
+  top: "conv4"
+  name: "relu4"
+  type: RELU
+}
+layers {
+  bottom: "conv4"
+  top: "conv5"
+  name: "conv5"
+  type: CONVOLUTION
+  convolution_param {
+    num_output: 256
+    pad: 1
+    kernel_size: 3
+    group: 2
+  }
+}
+layers {
+  bottom: "conv5"
+  top: "conv5"
+  name: "relu5"
+  type: RELU
+}
+layers {
+  bottom: "conv5"
+  top: "pool5"
+  name: "pool5"
+  type: POOLING
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layers {
+  bottom: "pool5"
+  top: "fc6"
+  name: "fc6"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc6"
+  top: "fc6"
+  name: "relu6"
+  type: RELU
+}
+layers {
+  bottom: "fc6"
+  top: "fc6"
+  name: "drop6"
+  type: DROPOUT
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layers {
+  bottom: "fc6"
+  top: "fc7"
+  name: "fc7"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 4096
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc7"
+  name: "relu7"
+  type: RELU
+}
+layers {
+  bottom: "fc7"
+  top: "fc7"
+  name: "drop7"
+  type: DROPOUT
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layers {
+  bottom: "fc7"
+  top: "fc8"
+  name: "fc8"
+  type: INNER_PRODUCT
+  inner_product_param {
+    num_output: 1000
+  }
+}
+layers {
+  bottom: "fc8"
+  top: "prob"
+  name: "prob"
+  type: SOFTMAX
+}
+input: "data"
+input_dim: 10
+input_dim: 3
+input_dim: 227
+input_dim: 227
+I1126 13:16:24.750205  5646 net.cpp:358] Input 0 -> data
+I1126 13:16:24.750299  5646 net.cpp:56] Memory required for data: 0
+I1126 13:16:24.750424  5646 net.cpp:67] Creating Layer conv1
+I1126 13:16:24.750444  5646 net.cpp:394] conv1 <- data
+I1126 13:16:24.750480  5646 net.cpp:356] conv1 -> conv1
+I1126 13:16:24.750519  5646 net.cpp:96] Setting up conv1
+I1126 13:16:24.750879  5646 net.cpp:103] Top shape: 10 96 55 55 (2904000)
+I1126 13:16:24.750895  5646 net.cpp:113] Memory required for data: 11616000
+I1126 13:16:24.750964  5646 net.cpp:67] Creating Layer relu1
+I1126 13:16:24.750982  5646 net.cpp:394] relu1 <- conv1
+I1126 13:16:24.751013  5646 net.cpp:345] relu1 -> conv1 (in-place)
+I1126 13:16:24.751036  5646 net.cpp:96] Setting up relu1
+I1126 13:16:24.751052  5646 net.cpp:103] Top shape: 10 96 55 55 (2904000)
+I1126 13:16:24.751061  5646 net.cpp:113] Memory required for data: 23232000
+I1126 13:16:24.751091  5646 net.cpp:67] Creating Layer pool1
+I1126 13:16:24.751106  5646 net.cpp:394] pool1 <- conv1
+I1126 13:16:24.751140  5646 net.cpp:356] pool1 -> pool1
+I1126 13:16:24.751173  5646 net.cpp:96] Setting up pool1
+I1126 13:16:24.751205  5646 net.cpp:103] Top shape: 10 96 27 27 (699840)
+I1126 13:16:24.751215  5646 net.cpp:113] Memory required for data: 26031360
+I1126 13:16:24.751240  5646 net.cpp:67] Creating Layer norm1
+I1126 13:16:24.751255  5646 net.cpp:394] norm1 <- pool1
+I1126 13:16:24.751283  5646 net.cpp:356] norm1 -> norm1
+I1126 13:16:24.751310  5646 net.cpp:96] Setting up norm1
+I1126 13:16:24.751328  5646 net.cpp:103] Top shape: 10 96 27 27 (699840)
+I1126 13:16:24.751338  5646 net.cpp:113] Memory required for data: 28830720
+I1126 13:16:24.751370  5646 net.cpp:67] Creating Layer conv2
+I1126 13:16:24.751389  5646 net.cpp:394] conv2 <- norm1
+I1126 13:16:24.751420  5646 net.cpp:356] conv2 -> conv2
+I1126 13:16:24.751452  5646 net.cpp:96] Setting up conv2
+I1126 13:16:24.753846  5646 net.cpp:103] Top shape: 10 256 27 27 (1866240)
+I1126 13:16:24.753867  5646 net.cpp:113] Memory required for data: 36295680
+I1126 13:16:24.753914  5646 net.cpp:67] Creating Layer relu2
+I1126 13:16:24.753931  5646 net.cpp:394] relu2 <- conv2
+I1126 13:16:24.753958  5646 net.cpp:345] relu2 -> conv2 (in-place)
+I1126 13:16:24.753980  5646 net.cpp:96] Setting up relu2
+I1126 13:16:24.753993  5646 net.cpp:103] Top shape: 10 256 27 27 (1866240)
+I1126 13:16:24.754000  5646 net.cpp:113] Memory required for data: 43760640
+I1126 13:16:24.754021  5646 net.cpp:67] Creating Layer pool2
+I1126 13:16:24.754034  5646 net.cpp:394] pool2 <- conv2
+I1126 13:16:24.754065  5646 net.cpp:356] pool2 -> pool2
+I1126 13:16:24.754091  5646 net.cpp:96] Setting up pool2
+I1126 13:16:24.754112  5646 net.cpp:103] Top shape: 10 256 13 13 (432640)
+I1126 13:16:24.754122  5646 net.cpp:113] Memory required for data: 45491200
+I1126 13:16:24.754144  5646 net.cpp:67] Creating Layer norm2
+I1126 13:16:24.754158  5646 net.cpp:394] norm2 <- pool2
+I1126 13:16:24.754185  5646 net.cpp:356] norm2 -> norm2
+I1126 13:16:24.754211  5646 net.cpp:96] Setting up norm2
+I1126 13:16:24.754228  5646 net.cpp:103] Top shape: 10 256 13 13 (432640)
+I1126 13:16:24.754237  5646 net.cpp:113] Memory required for data: 47221760
+I1126 13:16:24.754266  5646 net.cpp:67] Creating Layer conv3
+I1126 13:16:24.754281  5646 net.cpp:394] conv3 <- norm2
+I1126 13:16:24.754310  5646 net.cpp:356] conv3 -> conv3
+I1126 13:16:24.754336  5646 net.cpp:96] Setting up conv3
+I1126 13:16:24.761075  5646 net.cpp:103] Top shape: 10 384 13 13 (648960)
+I1126 13:16:24.761092  5646 net.cpp:113] Memory required for data: 49817600
+I1126 13:16:24.761142  5646 net.cpp:67] Creating Layer relu3
+I1126 13:16:24.761157  5646 net.cpp:394] relu3 <- conv3
+I1126 13:16:24.761185  5646 net.cpp:345] relu3 -> conv3 (in-place)
+I1126 13:16:24.761206  5646 net.cpp:96] Setting up relu3
+I1126 13:16:24.761219  5646 net.cpp:103] Top shape: 10 384 13 13 (648960)
+I1126 13:16:24.761227  5646 net.cpp:113] Memory required for data: 52413440
+I1126 13:16:24.761250  5646 net.cpp:67] Creating Layer conv4
+I1126 13:16:24.761262  5646 net.cpp:394] conv4 <- conv3
+I1126 13:16:24.761291  5646 net.cpp:356] conv4 -> conv4
+I1126 13:16:24.761325  5646 net.cpp:96] Setting up conv4
+I1126 13:16:24.765430  5646 net.cpp:103] Top shape: 10 384 13 13 (648960)
+I1126 13:16:24.765445  5646 net.cpp:113] Memory required for data: 55009280
+I1126 13:16:24.765472  5646 net.cpp:67] Creating Layer relu4
+I1126 13:16:24.765485  5646 net.cpp:394] relu4 <- conv4
+I1126 13:16:24.765507  5646 net.cpp:345] relu4 -> conv4 (in-place)
+I1126 13:16:24.765524  5646 net.cpp:96] Setting up relu4
+I1126 13:16:24.765533  5646 net.cpp:103] Top shape: 10 384 13 13 (648960)
+I1126 13:16:24.765539  5646 net.cpp:113] Memory required for data: 57605120
+I1126 13:16:24.765555  5646 net.cpp:67] Creating Layer conv5
+I1126 13:16:24.765565  5646 net.cpp:394] conv5 <- conv4
+I1126 13:16:24.765585  5646 net.cpp:356] conv5 -> conv5
+I1126 13:16:24.765605  5646 net.cpp:96] Setting up conv5
+I1126 13:16:24.768158  5646 net.cpp:103] Top shape: 10 256 13 13 (432640)
+I1126 13:16:24.768172  5646 net.cpp:113] Memory required for data: 59335680
+I1126 13:16:24.768214  5646 net.cpp:67] Creating Layer relu5
+I1126 13:16:24.768226  5646 net.cpp:394] relu5 <- conv5
+I1126 13:16:24.768247  5646 net.cpp:345] relu5 -> conv5 (in-place)
+I1126 13:16:24.768267  5646 net.cpp:96] Setting up relu5
+I1126 13:16:24.768277  5646 net.cpp:103] Top shape: 10 256 13 13 (432640)
+I1126 13:16:24.768283  5646 net.cpp:113] Memory required for data: 61066240
+I1126 13:16:24.768301  5646 net.cpp:67] Creating Layer pool5
+I1126 13:16:24.768311  5646 net.cpp:394] pool5 <- conv5
+I1126 13:16:24.768332  5646 net.cpp:356] pool5 -> pool5
+I1126 13:16:24.768352  5646 net.cpp:96] Setting up pool5
+I1126 13:16:24.768370  5646 net.cpp:103] Top shape: 10 256 6 6 (92160)
+I1126 13:16:24.768379  5646 net.cpp:113] Memory required for data: 61434880
+I1126 13:16:24.768396  5646 net.cpp:67] Creating Layer fc6
+I1126 13:16:24.768406  5646 net.cpp:394] fc6 <- pool5
+I1126 13:16:24.768427  5646 net.cpp:356] fc6 -> fc6
+I1126 13:16:24.768446  5646 net.cpp:96] Setting up fc6
+I1126 13:16:24.977442  5646 net.cpp:103] Top shape: 10 4096 1 1 (40960)
+I1126 13:16:24.977484  5646 net.cpp:113] Memory required for data: 61598720
+I1126 13:16:24.977576  5646 net.cpp:67] Creating Layer relu6
+I1126 13:16:24.977597  5646 net.cpp:394] relu6 <- fc6
+I1126 13:16:24.977648  5646 net.cpp:345] relu6 -> fc6 (in-place)
+I1126 13:16:24.977673  5646 net.cpp:96] Setting up relu6
+I1126 13:16:24.977684  5646 net.cpp:103] Top shape: 10 4096 1 1 (40960)
+I1126 13:16:24.977690  5646 net.cpp:113] Memory required for data: 61762560
+I1126 13:16:24.977715  5646 net.cpp:67] Creating Layer drop6
+I1126 13:16:24.977725  5646 net.cpp:394] drop6 <- fc6
+I1126 13:16:24.977746  5646 net.cpp:345] drop6 -> fc6 (in-place)
+I1126 13:16:24.977763  5646 net.cpp:96] Setting up drop6
+I1126 13:16:24.977778  5646 net.cpp:103] Top shape: 10 4096 1 1 (40960)
+I1126 13:16:24.977784  5646 net.cpp:113] Memory required for data: 61926400
+I1126 13:16:24.977805  5646 net.cpp:67] Creating Layer fc7
+I1126 13:16:24.977815  5646 net.cpp:394] fc7 <- fc6
+I1126 13:16:24.977840  5646 net.cpp:356] fc7 -> fc7
+I1126 13:16:24.977865  5646 net.cpp:96] Setting up fc7
+I1126 13:16:25.070925  5646 net.cpp:103] Top shape: 10 4096 1 1 (40960)
+I1126 13:16:25.070971  5646 net.cpp:113] Memory required for data: 62090240
+I1126 13:16:25.071037  5646 net.cpp:67] Creating Layer relu7
+I1126 13:16:25.071058  5646 net.cpp:394] relu7 <- fc7
+I1126 13:16:25.071107  5646 net.cpp:345] relu7 -> fc7 (in-place)
+I1126 13:16:25.071131  5646 net.cpp:96] Setting up relu7
+I1126 13:16:25.071142  5646 net.cpp:103] Top shape: 10 4096 1 1 (40960)
+I1126 13:16:25.071148  5646 net.cpp:113] Memory required for data: 62254080
+I1126 13:16:25.071171  5646 net.cpp:67] Creating Layer drop7
+I1126 13:16:25.071182  5646 net.cpp:394] drop7 <- fc7
+I1126 13:16:25.071200  5646 net.cpp:345] drop7 -> fc7 (in-place)
+I1126 13:16:25.071218  5646 net.cpp:96] Setting up drop7
+I1126 13:16:25.071229  5646 net.cpp:103] Top shape: 10 4096 1 1 (40960)
+I1126 13:16:25.071236  5646 net.cpp:113] Memory required for data: 62417920
+I1126 13:16:25.071257  5646 net.cpp:67] Creating Layer fc8
+I1126 13:16:25.071266  5646 net.cpp:394] fc8 <- fc7
+I1126 13:16:25.071288  5646 net.cpp:356] fc8 -> fc8
+I1126 13:16:25.071315  5646 net.cpp:96] Setting up fc8
+I1126 13:16:25.094254  5646 net.cpp:103] Top shape: 10 1000 1 1 (10000)
+I1126 13:16:25.094296  5646 net.cpp:113] Memory required for data: 62457920
+I1126 13:16:25.094359  5646 net.cpp:67] Creating Layer prob
+I1126 13:16:25.094382  5646 net.cpp:394] prob <- fc8
+I1126 13:16:25.094427  5646 net.cpp:356] prob -> prob
+I1126 13:16:25.094460  5646 net.cpp:96] Setting up prob
+I1126 13:16:25.094491  5646 net.cpp:103] Top shape: 10 1000 1 1 (10000)
+I1126 13:16:25.094498  5646 net.cpp:113] Memory required for data: 62497920
+I1126 13:16:25.094511  5646 net.cpp:172] prob does not need backward computation.
+I1126 13:16:25.094518  5646 net.cpp:172] fc8 does not need backward computation.
+I1126 13:16:25.094524  5646 net.cpp:172] drop7 does not need backward computation.
+I1126 13:16:25.094530  5646 net.cpp:172] relu7 does not need backward computation.
+I1126 13:16:25.094542  5646 net.cpp:172] fc7 does not need backward computation.
+I1126 13:16:25.094549  5646 net.cpp:172] drop6 does not need backward computation.
+I1126 13:16:25.094555  5646 net.cpp:172] relu6 does not need backward computation.
+I1126 13:16:25.094563  5646 net.cpp:172] fc6 does not need backward computation.
+I1126 13:16:25.094568  5646 net.cpp:172] pool5 does not need backward computation.
+I1126 13:16:25.094574  5646 net.cpp:172] relu5 does not need backward computation.
+I1126 13:16:25.094581  5646 net.cpp:172] conv5 does not need backward computation.
+I1126 13:16:25.094588  5646 net.cpp:172] relu4 does not need backward computation.
+I1126 13:16:25.094594  5646 net.cpp:172] conv4 does not need backward computation.
+I1126 13:16:25.094601  5646 net.cpp:172] relu3 does not need backward computation.
+I1126 13:16:25.094607  5646 net.cpp:172] conv3 does not need backward computation.
+I1126 13:16:25.094614  5646 net.cpp:172] norm2 does not need backward computation.
+I1126 13:16:25.094620  5646 net.cpp:172] pool2 does not need backward computation.
+I1126 13:16:25.094626  5646 net.cpp:172] relu2 does not need backward computation.
+I1126 13:16:25.094632  5646 net.cpp:172] conv2 does not need backward computation.
+I1126 13:16:25.094638  5646 net.cpp:172] norm1 does not need backward computation.
+I1126 13:16:25.094645  5646 net.cpp:172] pool1 does not need backward computation.
+I1126 13:16:25.094651  5646 net.cpp:172] relu1 does not need backward computation.
+I1126 13:16:25.094657  5646 net.cpp:172] conv1 does not need backward computation.
+I1126 13:16:25.094665  5646 net.cpp:208] This network produces output prob
+I1126 13:16:25.094715  5646 net.cpp:467] Collecting Learning Rate and Weight Decay.
+I1126 13:16:25.094744  5646 net.cpp:219] Network initialization done.
+I1126 13:16:25.094750  5646 net.cpp:220] Memory required for data: 62497920
+E1126 13:16:27.193315  5646 upgrade_proto.cpp:603] Attempting to upgrade input file specified using deprecated transformation parameters: /net/per610a/export/das11f/plsang/deepcaffe/caffe-rc/models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel
+I1126 13:16:27.193378  5646 upgrade_proto.cpp:606] Successfully upgraded file specified using deprecated data transformation parameters.
+E1126 13:16:27.193388  5646 upgrade_proto.cpp:608] Note that future Caffe releases will only support transform_param messages for transformation fields.
+I1126 13:16:27.193403  5646 net.cpp:702] Ignoring source layer data
+I1126 13:16:27.193413  5646 net.cpp:705] Copying source layer conv1
+I1126 13:16:27.194352  5646 net.cpp:705] Copying source layer relu1
+I1126 13:16:27.194366  5646 net.cpp:705] Copying source layer pool1
+I1126 13:16:27.194375  5646 net.cpp:705] Copying source layer norm1
+I1126 13:16:27.194383  5646 net.cpp:705] Copying source layer conv2
+I1126 13:16:27.202347  5646 net.cpp:705] Copying source layer relu2
+I1126 13:16:27.202361  5646 net.cpp:705] Copying source layer pool2
+I1126 13:16:27.202370  5646 net.cpp:705] Copying source layer norm2
+I1126 13:16:27.202379  5646 net.cpp:705] Copying source layer conv3
+I1126 13:16:27.224581  5646 net.cpp:705] Copying source layer relu3
+I1126 13:16:27.224606  5646 net.cpp:705] Copying source layer conv4
+I1126 13:16:27.236745  5646 net.cpp:705] Copying source layer relu4
+I1126 13:16:27.236762  5646 net.cpp:705] Copying source layer conv5
+I1126 13:16:27.244884  5646 net.cpp:705] Copying source layer relu5
+I1126 13:16:27.244897  5646 net.cpp:705] Copying source layer pool5
+I1126 13:16:27.244904  5646 net.cpp:705] Copying source layer fc6
+I1126 13:16:27.934551  5646 net.cpp:705] Copying source layer relu6
+I1126 13:16:27.934594  5646 net.cpp:705] Copying source layer drop6
+I1126 13:16:27.934602  5646 net.cpp:705] Copying source layer fc7
+I1126 13:16:28.241220  5646 net.cpp:705] Copying source layer relu7
+I1126 13:16:28.241266  5646 net.cpp:705] Copying source layer drop7
+I1126 13:16:28.241273  5646 net.cpp:705] Copying source layer fc8
+I1126 13:16:28.316197  5646 net.cpp:702] Ignoring source layer loss
+ 22265/31800 Extracting deep caffe feature for video [HVC128378]...
+Extracted deep caffe feature for [HVC128378-000048] in 2.18964099884 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000007] in 2.20012903214 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000019] in 2.17597579956 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000020] in 2.17601108551 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000012] in 2.13153910637 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000040] in 2.16463398933 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000049] in 2.24216508865 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000014] in 2.21365499496 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000030] in 2.30281877518 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000018] in 2.17604207993 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000004] in 2.33084607124 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000025] in 2.15656805038 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000024] in 2.2382440567 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000035] in 2.38451194763 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000001] in 1.73500108719 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000022] in 2.12815880775 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000002] in 2.87416100502 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000006] in 2.22846388817 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000050] in 2.12370896339 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000028] in 2.10574316978 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000027] in 2.10105609894 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000043] in 1.85278606415 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000005] in 1.96305298805 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000044] in 1.8282930851 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000009] in 1.88936209679 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000029] in 1.83841586113 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000032] in 2.05207300186 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000038] in 1.97790503502 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000015] in 1.82277107239 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000034] in 1.84329414368 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000051] in 1.85927081108 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000021] in 1.88452792168 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000045] in 1.99368095398 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000003] in 2.42573809624 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000023] in 1.75657296181 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000052] in 1.84514498711 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000046] in 1.79044508934 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000026] in 1.84347891808 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000042] in 1.82736110687 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000036] in 2.04799389839 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000016] in 2.07963490486 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000033] in 2.0422539711 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000031] in 1.87883806229 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000047] in 1.79085588455 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000013] in 1.81217885017 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000008] in 1.98413705826 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000037] in 1.96169304848 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000041] in 1.81713604927 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000010] in 1.96370387077 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000017] in 2.19615912437 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000039] in 1.87263298035 s.
+(1000,)
+Extracted deep caffe feature for [HVC128378-000011] in 1.89520597458 s.
+(1000,)
+Wed Nov 26 13:18:14 JST 2014

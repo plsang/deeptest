@@ -1,0 +1,1 @@
+qsub -pe localslots 4 -e /net/per610a/export/das11f/plsang/codes/deeptest/deepcaffe_predict_med/error.log -o /net/per610a/export/das11f/plsang/codes/deeptest/deepcaffe_predict_med/output.log /net/per610a/export/das11f/plsang/codes/deeptest/deepcaffe_predict_med.sh medtest14 0 27275

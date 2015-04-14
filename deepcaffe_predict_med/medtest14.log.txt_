@@ -1,0 +1,205 @@
+2015-01-21 23:55:58,238 : INFO : running [deepcaffe_predict_med.py medtest14 0 408]
+2015-01-22 00:09:28,694 : INFO : running [deepcaffe_predict_med.py medtest14 408 816]
+2015-01-22 00:14:58,870 : INFO : running [deepcaffe_predict_med.py medtest14 816 1224]
+2015-01-22 00:19:03,205 : INFO : running [deepcaffe_predict_med.py medtest14 1224 1632]
+2015-01-22 00:24:58,444 : INFO : running [deepcaffe_predict_med.py medtest14 2040 2448]
+2015-01-22 00:29:12,927 : INFO : running [deepcaffe_predict_med.py medtest14 2448 2856]
+2015-01-22 00:30:43,640 : INFO : running [deepcaffe_predict_med.py medtest14 2856 3264]
+2015-01-22 00:31:28,418 : INFO : running [deepcaffe_predict_med.py medtest14 3264 3672]
+2015-01-22 00:46:28,279 : INFO : running [deepcaffe_predict_med.py medtest14 3672 4080]
+2015-01-22 01:07:13,061 : INFO : running [deepcaffe_predict_med.py medtest14 4080 4488]
+2015-01-22 01:08:58,804 : INFO : running [deepcaffe_predict_med.py medtest14 4488 4896]
+2015-01-22 01:09:43,219 : INFO : running [deepcaffe_predict_med.py medtest14 4896 5304]
+2015-01-22 01:17:43,677 : INFO : running [deepcaffe_predict_med.py medtest14 5712 6120]
+2015-01-22 01:18:28,079 : INFO : running [deepcaffe_predict_med.py medtest14 6528 6936]
+2015-01-22 01:21:58,178 : INFO : running [deepcaffe_predict_med.py medtest14 6936 7344]
+2015-01-22 01:37:44,001 : INFO : running [deepcaffe_predict_med.py medtest14 7344 7752]
+2015-01-22 01:40:00,221 : INFO : running [deepcaffe_predict_med.py medtest14 7752 8160]
+2015-01-22 01:56:13,196 : INFO : running [deepcaffe_predict_med.py medtest14 8160 8568]
+2015-01-22 02:12:13,315 : INFO : running [deepcaffe_predict_med.py medtest14 8568 8976]
+2015-01-22 02:21:43,286 : INFO : running [deepcaffe_predict_med.py medtest14 8976 9384]
+2015-01-22 02:25:58,873 : INFO : running [deepcaffe_predict_med.py medtest14 9384 9792]
+2015-01-22 02:34:28,324 : INFO : running [deepcaffe_predict_med.py medtest14 9792 10200]
+2015-01-22 02:40:42,953 : INFO : running [deepcaffe_predict_med.py medtest14 10200 10608]
+2015-01-22 02:50:43,246 : INFO : running [deepcaffe_predict_med.py medtest14 10608 11016]
+2015-01-22 02:54:13,347 : INFO : running [deepcaffe_predict_med.py medtest14 11016 11424]
+2015-01-22 03:06:13,338 : INFO : running [deepcaffe_predict_med.py medtest14 11424 11832]
+2015-01-22 03:06:58,496 : INFO : running [deepcaffe_predict_med.py medtest14 11832 12240]
+2015-01-22 03:17:30,236 : INFO : running [deepcaffe_predict_med.py medtest14 12240 12648]
+2015-01-22 03:20:13,223 : INFO : running [deepcaffe_predict_med.py medtest14 12648 13056]
+2015-01-22 03:20:58,197 : INFO : running [deepcaffe_predict_med.py medtest14 13056 13464]
+2015-01-22 03:24:43,019 : INFO : running [deepcaffe_predict_med.py medtest14 13464 13872]
+2015-01-22 03:29:43,264 : INFO : running [deepcaffe_predict_med.py medtest14 13872 14280]
+2015-01-22 03:35:13,527 : INFO : running [deepcaffe_predict_med.py medtest14 14688 15096]
+2015-01-22 03:35:43,452 : INFO : running [deepcaffe_predict_med.py medtest14 15096 15504]
+2015-01-22 03:40:43,417 : INFO : running [deepcaffe_predict_med.py medtest14 15504 15912]
+2015-01-22 03:41:28,251 : INFO : running [deepcaffe_predict_med.py medtest14 15912 16320]
+2015-01-22 03:42:58,387 : INFO : running [deepcaffe_predict_med.py medtest14 16320 16728]
+2015-01-22 03:43:58,381 : INFO : running [deepcaffe_predict_med.py medtest14 16728 17136]
+2015-01-22 03:46:59,416 : INFO : running [deepcaffe_predict_med.py medtest14 17136 17544]
+2015-01-22 03:49:43,499 : INFO : running [deepcaffe_predict_med.py medtest14 17544 17952]
+2015-01-22 03:52:43,808 : INFO : running [deepcaffe_predict_med.py medtest14 17952 18360]
+2015-01-22 04:01:13,233 : INFO : running [deepcaffe_predict_med.py medtest14 18360 18768]
+2015-01-22 04:02:58,099 : INFO : running [deepcaffe_predict_med.py medtest14 18768 19176]
+2015-01-22 04:03:43,471 : INFO : running [deepcaffe_predict_med.py medtest14 19176 19584]
+2015-01-22 04:10:13,429 : INFO : running [deepcaffe_predict_med.py medtest14 19584 19992]
+2015-01-22 04:12:28,311 : INFO : running [deepcaffe_predict_med.py medtest14 19992 20400]
+2015-01-22 04:14:58,177 : INFO : running [deepcaffe_predict_med.py medtest14 20400 20808]
+2015-01-22 04:26:13,224 : INFO : running [deepcaffe_predict_med.py medtest14 20808 21216]
+2015-01-22 04:28:43,726 : INFO : running [deepcaffe_predict_med.py medtest14 21216 21624]
+2015-01-22 04:35:28,316 : INFO : running [deepcaffe_predict_med.py medtest14 21624 22032]
+2015-01-22 04:39:28,126 : INFO : running [deepcaffe_predict_med.py medtest14 22032 22440]
+2015-01-22 04:44:27,887 : INFO : running [deepcaffe_predict_med.py medtest14 22440 22848]
+2015-01-22 04:48:58,251 : INFO : running [deepcaffe_predict_med.py medtest14 22848 23256]
+2015-01-22 05:02:28,913 : INFO : running [deepcaffe_predict_med.py medtest14 23256 23664]
+2015-01-22 05:19:58,052 : INFO : running [deepcaffe_predict_med.py medtest14 23664 24072]
+2015-01-22 05:20:58,025 : INFO : running [deepcaffe_predict_med.py medtest14 24072 24480]
+2015-01-22 05:23:28,095 : INFO : running [deepcaffe_predict_med.py medtest14 24480 24888]
+2015-01-22 05:27:28,119 : INFO : running [deepcaffe_predict_med.py medtest14 24888 25296]
+2015-01-22 05:49:58,180 : INFO : running [deepcaffe_predict_med.py medtest14 25296 25704]
+2015-01-22 05:50:57,892 : INFO : running [deepcaffe_predict_med.py medtest14 25704 26112]
+2015-01-22 05:51:43,028 : INFO : running [deepcaffe_predict_med.py medtest14 26112 26520]
+2015-01-22 05:53:28,366 : INFO : running [deepcaffe_predict_med.py medtest14 26520 26928]
+2015-01-22 06:46:42,849 : INFO : running [deepcaffe_predict_med.py medtest14 26928 27275]
+2015-01-22 10:25:51,872 : INFO : Run [deepcaffe_predict_med.py_medtest14_26928_27275]. Elapsed: 13147.09744
+2015-01-22 10:57:23,023 : INFO : Run [deepcaffe_predict_med.py_medtest14_408_816]. Elapsed: 38872.4833488
+2015-01-22 12:09:09,528 : INFO : Run [deepcaffe_predict_med.py_medtest14_0_408]. Elapsed: 43988.875421
+2015-01-22 12:24:58,953 : INFO : Run [deepcaffe_predict_med.py_medtest14_816_1224]. Elapsed: 43797.7752109
+2015-01-22 12:47:18,820 : INFO : Run [deepcaffe_predict_med.py_medtest14_4896_5304]. Elapsed: 41853.2711811
+2015-01-22 13:00:14,408 : INFO : Run [deepcaffe_predict_med.py_medtest14_2448_2856]. Elapsed: 45059.6729789
+2015-01-22 13:21:52,452 : INFO : Run [deepcaffe_predict_med.py_medtest14_2040_2448]. Elapsed: 46611.701055
+2015-01-22 13:26:21,457 : INFO : Run [deepcaffe_predict_med.py_medtest14_4080_4488]. Elapsed: 44344.664284
+2015-01-22 13:27:46,445 : INFO : Run [deepcaffe_predict_med.py_medtest14_1632_2040]. Elapsed: 46995.76126
+2015-01-22 13:28:17,353 : INFO : Run [deepcaffe_predict_med.py_medtest14_1224_1632]. Elapsed: 47352.2802892
+2015-01-22 13:33:53,212 : INFO : Run [deepcaffe_predict_med.py_medtest14_6936_7344]. Elapsed: 43910.6009309
+2015-01-22 13:34:36,463 : INFO : Run [deepcaffe_predict_med.py_medtest14_4488_4896]. Elapsed: 44735.3499639
+2015-01-22 13:40:59,260 : INFO : Run [deepcaffe_predict_med.py_medtest14_2856_3264]. Elapsed: 47413.7858682
+2015-01-22 14:03:21,474 : INFO : Run [deepcaffe_predict_med.py_medtest14_5304_5712]. Elapsed: 45950.2810891
+2015-01-22 14:18:20,509 : INFO : Run [deepcaffe_predict_med.py_medtest14_7752_8160]. Elapsed: 45497.9159789
+2015-01-22 14:21:06,381 : INFO : Run [deepcaffe_predict_med.py_medtest14_3672_4080]. Elapsed: 48876.1374409
+2015-01-22 14:45:07,775 : INFO : Run [deepcaffe_predict_med.py_medtest14_7344_7752]. Elapsed: 47241.439662
+2015-01-22 15:19:49,197 : INFO : Run [deepcaffe_predict_med.py_medtest14_8568_8976]. Elapsed: 47253.4845119
+2015-01-22 15:25:07,618 : INFO : Run [deepcaffe_predict_med.py_medtest14_6120_6528]. Elapsed: 50812.3506441
+2015-01-22 15:35:40,600 : INFO : Run [deepcaffe_predict_med.py_medtest14_6528_6936]. Elapsed: 51430.1799419
+2015-01-22 16:00:16,785 : INFO : Run [deepcaffe_predict_med.py_medtest14_5712_6120]. Elapsed: 52950.8181291
+2015-01-22 16:13:20,240 : INFO : Run [deepcaffe_predict_med.py_medtest14_10200_10608]. Elapsed: 48754.9470589
+2015-01-22 16:29:21,720 : INFO : Run [deepcaffe_predict_med.py_medtest14_3264_3672]. Elapsed: 57470.9515131
+2015-01-22 17:11:39,934 : INFO : Run [deepcaffe_predict_med.py_medtest14_9384_9792]. Elapsed: 53138.7731669
+2015-01-22 17:20:35,926 : INFO : Run [deepcaffe_predict_med.py_medtest14_15096_15504]. Elapsed: 49490.6607511
+2015-01-22 17:36:32,366 : INFO : Run [deepcaffe_predict_med.py_medtest14_8160_8568]. Elapsed: 56416.7987771
+2015-01-22 17:50:44,974 : INFO : Run [deepcaffe_predict_med.py_medtest14_11832_12240]. Elapsed: 53024.5742371
+2015-01-22 18:05:47,843 : INFO : Run [deepcaffe_predict_med.py_medtest14_11424_11832]. Elapsed: 53972.5664661
+2015-01-22 18:34:22,762 : INFO : Run [deepcaffe_predict_med.py_medtest14_16728_17136]. Elapsed: 53422.452395
+2015-01-22 18:49:07,682 : INFO : Run [deepcaffe_predict_med.py_medtest14_13872_14280]. Elapsed: 55162.5171108
+2015-01-22 19:01:39,772 : INFO : Run [deepcaffe_predict_med.py_medtest14_8976_9384]. Elapsed: 59994.4930849
+
+2015-01-22 19:04:39,882 : INFO : Run [deepcaffe_predict_med.py_medtest14_26112_26520]. Elapsed: 47575.0089059
+2015-01-22 19:33:09,550 : INFO : Run [deepcaffe_predict_med.py_medtest14_15912_16320]. Elapsed: 57099.379142
+2015-01-22 19:33:46,065 : INFO : Run [deepcaffe_predict_med.py_medtest14_23256_23664]. Elapsed: 52275.2539899
+2015-01-22 19:37:34,691 : INFO : Run [deepcaffe_predict_med.py_medtest14_11016_11424]. Elapsed: 60199.35818
+2015-01-22 19:42:34,644 : INFO : Run [deepcaffe_predict_med.py_medtest14_14280_14688]. Elapsed: 58054.5848832
+2015-01-22 19:47:23,042 : INFO : Run [deepcaffe_predict_med.py_medtest14_10608_11016]. Elapsed: 60997.8466501
+2015-01-22 19:49:42,564 : INFO : Run [deepcaffe_predict_med.py_medtest14_12240_12648]. Elapsed: 59529.943239
+2015-01-22 19:50:37,002 : INFO : Run [deepcaffe_predict_med.py_medtest14_18360_18768]. Elapsed: 56961.8587041
+2015-01-22 19:54:24,295 : INFO : Run [deepcaffe_predict_med.py_medtest14_15504_15912]. Elapsed: 58418.9197299
+2015-01-22 20:00:06,165 : INFO : Run [deepcaffe_predict_med.py_medtest14_16320_16728]. Elapsed: 58625.856427
+2015-01-22 20:09:49,920 : INFO : Run [deepcaffe_predict_med.py_medtest14_17544_17952]. Elapsed: 58804.5034282
+2015-01-22 20:09:55,828 : INFO : Run [deepcaffe_predict_med.py_medtest14_22440_22848]. Elapsed: 55526.010082
+2015-01-22 20:14:08,982 : INFO : Run [deepcaffe_predict_med.py_medtest14_25296_25704]. Elapsed: 51848.8625429
+2015-01-22 20:17:56,033 : INFO : Run [deepcaffe_predict_med.py_medtest14_9792_10200]. Elapsed: 63805.7430809
+2015-01-22 20:20:23,569 : INFO : Run [deepcaffe_predict_med.py_medtest14_19992_20400]. Elapsed: 58073.334208
+2015-01-22 20:39:03,464 : INFO : Run [deepcaffe_predict_med.py_medtest14_13464_13872]. Elapsed: 62058.5063131
+2015-01-22 20:50:23,544 : INFO : Run [deepcaffe_predict_med.py_medtest14_14688_15096]. Elapsed: 62108.059438
+2015-01-22 20:50:24,880 : INFO : Run [deepcaffe_predict_med.py_medtest14_22848_23256]. Elapsed: 57684.7039752
+2015-01-22 21:09:05,310 : INFO : Run [deepcaffe_predict_med.py_medtest14_20808_21216]. Elapsed: 60170.1857159
+2015-01-22 21:12:56,226 : INFO : Run [deepcaffe_predict_med.py_medtest14_19176_19584]. Elapsed: 61750.8240042
+2015-01-22 21:12:59,585 : INFO : Run [deepcaffe_predict_med.py_medtest14_13056_13464]. Elapsed: 64319.459542
+2015-01-22 21:20:09,569 : INFO : Run [deepcaffe_predict_med.py_medtest14_18768_19176]. Elapsed: 62229.4851551
+2015-01-22 21:45:44,149 : INFO : Run [deepcaffe_predict_med.py_medtest14_17136_17544]. Elapsed: 64722.386745
+2015-01-22 21:48:09,271 : INFO : Run [deepcaffe_predict_med.py_medtest14_19584_19992]. Elapsed: 63473.881628
+2015-01-22 21:48:25,289 : INFO : Run [deepcaffe_predict_med.py_medtest14_21624_22032]. Elapsed: 61975.0465779
+2015-01-22 22:04:30,421 : INFO : Run [deepcaffe_predict_med.py_medtest14_22032_22440]. Elapsed: 62700.3813381
+2015-01-22 22:16:05,938 : INFO : Run [deepcaffe_predict_med.py_medtest14_25704_26112]. Elapsed: 59106.1357551
+2015-01-22 22:16:06,243 : INFO : Run [deepcaffe_predict_med.py_medtest14_20400_20808]. Elapsed: 64866.1212749
+2015-01-22 22:21:16,853 : INFO : Run [deepcaffe_predict_med.py_medtest14_21216_21624]. Elapsed: 64351.2157271
+2015-01-22 22:37:54,496 : INFO : Run [deepcaffe_predict_med.py_medtest14_24480_24888]. Elapsed: 62064.499347
+2015-01-22 23:04:34,815 : INFO : Run [deepcaffe_predict_med.py_medtest14_23664_24072]. Elapsed: 63874.8326502
+2015-01-22 23:36:14,674 : INFO : Run [deepcaffe_predict_med.py_medtest14_17952_18360]. Elapsed: 71008.9369121
+2015-01-22 23:43:49,235 : INFO : Run [deepcaffe_predict_med.py_medtest14_26520_26928]. Elapsed: 64218.9415262
+2015-01-23 00:29:17,541 : INFO : Run [deepcaffe_predict_med.py_medtest14_24888_25296]. Elapsed: 68507.527421
+2015-01-23 15:08:58,741 : INFO : running [deepcaffe_predict_med.py medtest14 6936 7344]
+]
+2015-01-23 15:08:58,764 : INFO : running [deepcaffe_predict_med.py medtest14 9792 10200]
+
+2015-01-23 15:08:59,400 : INFO : running [deepcaffe_predict_med.py medtest14 3672 4080]
+2015-01-23 15:08:59,400 : INFO : running [deepcaffe_predict_med.py medtest14 24480 24888]
+2015-01-23 15:08:59,695 : INFO : running [deepcaffe_predict_med.py medtest14 5712 6120]
+2015-01-23 15:08:59,813 : INFO : running [deepcaffe_predict_med.py medtest14 25296 25704]
+2015-01-23 15:08:59,832 : INFO : running [deepcaffe_predict_med.py medtest14 15096 155042015-01-23 15:09:00,122 : INFO : running [deepcaffe_predict_med.py medtest14 17544 17952]
+2015-01-23 15:09:00,423 : INFO : running [deepcaffe_predict_med.py medtest14 25704 26112]
+2015-01-23 15:09:00,455 : INFO : running [deepcaffe_predict_med.py medtest14 22032 22440]
+2015-01-23 15:09:00,455 : INFO : running [deepcaffe_predict_med.py medtest14 1224 1632]
+]
+15-01-23 15:09:00,806 : INFO : running [deepcaffe_predict_med.py medtest14 10608 11016]
+2015-01-23 15:09:00,806 : INFO : running [deepcaffe_predict_med.py medtest14 24888 25296]
+2015-01-23 15:09:00,817 : INFO : running [deepcaffe_predict_med.py medtest14 2856 3264]
+2015-01-23 15:09:01,039 : INFO : running [deepcaffe_predict_med.py medtest14 19992 20400]
+15-01-23 15:09:02,017 : INFO : running [deepcaffe_predict_med.py medtest14 19176 19584]
+2015-01-23 15:09:02,466 : INFO : running [deepcaffe_predict_med.py medtest14 1632 2040]
+2015-01-23 15:09:02,470 : INFO : running [deepcaffe_predict_med.py medtest14 13056 13464]
+-01-23 15:09:02,474 : INFO : running [deepcaffe_predict_med.py medtest14 14280 14688]
+2015-01-23 15:09:02,484 : INFO : running [deepcaffe_predict_med.py medtest14 21216 21624]
+15-01-23 15:09:03,071 : INFO : running [deepcaffe_predict_med.py medtest14 23256 23664]
+2015-01-23 15:09:03,080 : INFO : running [deepcaffe_predict_med.py medtest14 12240 12648]
+15-01-23 15:09:03,595 : INFO : running [deepcaffe_predict_med.py medtest14 19584 19992]
+2015-01-23 15:09:04,369 : INFO : running [deepcaffe_predict_med.py medtest14 0 408]
+2015-01-23 15:09:04,372 : INFO : running [deepcaffe_predict_med.py medtest14 20808 21216]
+15-01-23 15:09:04,461 : INFO : running [deepcaffe_predict_med.py medtest14 18360 18768]
+2015-01-23 15:09:04,531 : INFO : running [deepcaffe_predict_med.py medtest14 6528 6936]
+2015-01-23 15:09:04,613 : INFO : running [deepcaffe_predict_med.py medtest14 15504 15912]
+2015-01-23 15:09:04,818 : INFO : running [deepcaffe_predict_med.py medtest14 816 1224]
+2015-01-23 15:09:04,818 : INFO : running [deepcaffe_predict_med.py medtest14 21624 22032]
+15-01-23 15:09:05,111 : INFO : running [deepcaffe_predict_med.py medtest14 12648 13056]
+2015-01-23 15:09:05,116 : INFO : running [deepcaffe_predict_med.py medtest14 22848 23256]
+2015-01-23 15:09:08,266 : INFO : running [deepcaffe_predict_med.py medtest14 7752 8160]
+2015-01-23 15:09:08,636 : INFO : running [deepcaffe_predict_med.py medtest14 11424 11832]
+2015-01-23 15:09:08,639 : INFO : running [deepcaffe_predict_med.py medtest14 24072 24480]
+2015-01-23 15:09:10,530 : INFO : running [deepcaffe_predict_med.py medtest14 4896 5304]
+2015-01-23 15:09:11,269 : INFO : running [deepcaffe_predict_med.py medtest14 16320 16728]
+2015-01-23 15:09:12,192 : INFO : running [deepcaffe_predict_med.py medtest14 26112 26520]
+2015-01-23 15:13:04,725 : INFO : Run [deepcaffe_predict_med.py_medtest14_9384_9792]. Elapsed: 219.453723907
+
+
+2015-01-23 15:12:33,883 : INFO : Run [deepcaffe_predict_med.py_medtest14_6936_7344]. Elapsed: 197.344074011
+2015-01-23 15:12:41,663 : INFO : Run [deepcaffe_predict_med.py_medtest14_18360_18768]. Elapsed: 192.393723011
+2015-01-23 15:12:44,117 : INFO : Run [deepcaffe_predict_med.py_medtest14_7344_7752]. Elapsed: 193.339123964
+2015-01-23 15:12:49,084 : INFO : Run [deepcaffe_predict_med.py_medtest14_7752_8160]. Elapsed: 198.740308046
+2015-01-23 15:12:52,938 : INFO : Run [deepcaffe_predict_med.py_medtest14_8976_9384]. Elapsed: 204.022284985
+2015-01-23 15:12:56,604 : INFO : Run [deepcaffe_predict_med.py_medtest14_6528_6936]. Elapsed: 209.282963991
+2015-01-23 15:13:00,731 : INFO : Run [deepcaffe_predict_med.py_medtest14_19176_19584]. Elapsed: 212.84621501
+
+2015-01-23 15:12:59,887 : INFO : Run [deepcaffe_predict_med.py_medtest14_17952_18360]. Elapsed: 223.753000021
+2015-01-23 15:13:01,694 : INFO : Run [deepcaffe_predict_med.py_medtest14_6120_6528]. Elapsed: 216.985916138
+2015-01-23 15:13:04,068 : INFO : Run [deepcaffe_predict_med.py_medtest14_4896_5304]. Elapsed: 213.430492163
+2015-01-23 15:13:04,674 : INFO : Run [deepcaffe_predict_med.py_medtest14_20400_20808]. Elapsed: 222.947566032
+2015-01-23 15:13:07,285 : INFO : Run [deepcaffe_predict_med.py_medtest14_26520_26928]. Elapsed: 216.057415009
+2015-01-23 15:13:10,114 : INFO : Run [deepcaffe_predict_med.py_medtest14_8160_8568]. Elapsed: 221.944165945
+2015-01-23 15:13:14,212 : INFO : Run [deepcaffe_predict_med.py_medtest14_25296_25704]. Elapsed: 232.125686884
+2015-01-23 15:13:36,290 : INFO : Run [deepcaffe_predict_med.py_medtest14_20808_21216]. Elapsed: 246.677722931
+15-01-23 15:13:34,084 : INFO : Run [deepcaffe_predict_med.py_medtest14_22848_23256]. Elapsed: 245.494551897
+2
+2015-01-23 15:13:31,028 : INFO : Run [deepcaffe_predict_med.py_medtest14_2448_2856]. Elapsed: 243.707031012
+2015-01-23 15:13:33,901 : INFO : Run [deepcaffe_predict_med.py_medtest14_8568_8976]. Elapsed: 251.811804056
+5
+2015-01-23 15:13:36,322 : INFO : Run [deepcaffe_predict_med.py_medtest14_4080_4488]. Elapsed: 248.018081903
+5
+2015-01-23 15:13:40,387 : INFO : Run [deepcaffe_predict_med.py_medtest14_13464_13872]. Elapsed: 252.386004925
+2015-01-23 15:13:38,245 : INFO : Run [deepcaffe_predict_med.py_medtest14_1632_2040]. Elapsed: 249.955982924
+2015-01-23 15:13:42,842 : INFO : Run [deepcaffe_predict_med.py_medtest14_15096_15504]. Elapsed: 260.75602293
+
+2015-01-23 15:13:41,837 : INFO : Run [deepcaffe_predict_med.py_medtest14_3672_4080]. Elapsed: 265.716438055
+2015-01-23 15:13:44,755 : INFO : Run [deepcaffe_predict_med.py_medtest14_3264_3672]. Elapsed: 256.611541986
+6
+2015-01-23 15:13:47,652 : INFO : Run [deepcaffe_predict_med.py_medtest14_1224_1632]. Elapsed: 259.646816015
+3
+2015-01-23 15:14:09,660 : INFO : Run [deepcaffe_predict_med.py_medtest14_26928_27275]. Elapsed: 81.1506769657

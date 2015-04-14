@@ -1,5 +1,11 @@
-function gen_sge_code(script_name, pattern, total_segments, num_job, pe)
+function gen_sge_code(script_name, pattern, total_segments, num_job, pe, suffix)
 	
+    if ~exist('suffix', 'var'),
+        suffix = '';
+    end
+    
+    suffix
+    
 	script_dir = '/net/per610a/export/das11f/plsang/codes/deeptest';
 	
 	sge_sh_file = sprintf('%s/%s.sh', script_dir, script_name);
@@ -13,7 +19,7 @@ function gen_sge_code(script_name, pattern, total_segments, num_job, pe)
 	end
 	
 
-	output_file = sprintf('%s/%s.qsub.sh', output_dir, file_name);
+	output_file = sprintf('%s/%s%s.qsub.sh', output_dir, suffix, file_name);
 	fh = fopen(output_file, 'w');
 	
 	%num_max = 200;

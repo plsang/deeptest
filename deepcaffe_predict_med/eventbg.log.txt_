@@ -1,0 +1,191 @@
+2015-01-23 15:59:28,950 : INFO : running [deepcaffe_predict_med.py eventbg 2002 2079]
+2015-01-23 15:59:28,951 : INFO : running [deepcaffe_predict_med.py eventbg 4697 4774]
+2015-01-23 15:59:28,952 : INFO : running [deepcaffe_predict_med.py eventbg 770 847]
+]
+2015-01-23 15:59:29,980 : INFO : running [deepcaffe_predict_med.py eventbg 4081 4158]
+2015-01-23 15:59:29,981 : INFO : running [deepcaffe_predict_med.py eventbg 154 231]
+2015-01-23 15:59:29,981 : INFO : running [deepcaffe_predict_med.py eventbg 2541 2618]
+2015-01-23 15:59:30,702 : INFO : running [deepcaffe_predict_med.py eventbg 1386 1463]
+2015-01-23 15:59:30,724 : INFO : running [deepcaffe_predict_med.py eventbg 3080 3157]
+01-23 15:59:30,970 : INFO : running [deepcaffe_predict_med.py eventbg 2772 2849]
+2015-01-23 15:59:30,972 : INFO : running [deepcaffe_predict_med.py eventbg 3927 4004]
+2015-01-23 15:59:31,003 : INFO : running [deepcaffe_predict_med.py eventbg 1617 1694]
+2015-01-23 15:59:32,576 : INFO : running [deepcaffe_predict_med.py eventbg 2156 2233]
+2015-01-23 15:59:32,582 : INFO : running [deepcaffe_predict_med.py eventbg 616 693]
+]
+2015-01-23 15:59:32,856 : INFO : running [deepcaffe_predict_med.py eventbg 2464 2541]
+2015-01-23 15:59:32,862 : INFO : running [deepcaffe_predict_med.py eventbg 308 385]
+]
+2015-01-23 15:59:33,224 : INFO : running [deepcaffe_predict_med.py eventbg 1078 1155]
+15-01-23 15:59:33,260 : INFO : running [deepcaffe_predict_med.py eventbg 3773 3850]
+15-01-23 15:59:33,297 : INFO : running [deepcaffe_predict_med.py eventbg 4389 4466]
+2015-01-23 15:59:33,301 : INFO : running [deepcaffe_predict_med.py eventbg 2310 2387]
+2015-01-23 15:59:34,083 : INFO : running [deepcaffe_predict_med.py eventbg 3388 3465]
+2015-01-23 15:59:35,277 : INFO : running [deepcaffe_predict_med.py eventbg 2849 2926]
+2015-01-23 15:59:35,281 : INFO : running [deepcaffe_predict_med.py eventbg 1771 1848]
+5-01-23 15:59:36,531 : INFO : running [deepcaffe_predict_med.py eventbg 2695 2772]
+2015-01-23 15:59:36,536 : INFO : running [deepcaffe_predict_med.py eventbg 4004 4081]
+2015-01-23 15:59:36,591 : INFO : running [deepcaffe_predict_med.py eventbg 4851 4928]
+2015-01-23 15:59:36,854 : INFO : running [deepcaffe_predict_med.py eventbg 3850 3927]
+2015-01-23 15:59:36,862 : INFO : running [deepcaffe_predict_med.py eventbg 2926 3003]
+2015-01-23 15:59:37,409 : INFO : running [deepcaffe_predict_med.py eventbg 1309 1386]
+2015-01-23 15:59:37,416 : INFO : running [deepcaffe_predict_med.py eventbg 539 616]
+
+2015-01-23 15:59:37,551 : INFO : running [deepcaffe_predict_med.py eventbg 3696 3773]
+2015-01-23 15:59:37,740 : INFO : running [deepcaffe_predict_med.py eventbg 3465 3542]
+2015-01-23 15:59:40,326 : INFO : running [deepcaffe_predict_med.py eventbg 693 770]
+2015-01-23 15:59:40,329 : INFO : running [deepcaffe_predict_med.py eventbg 4620 4697]
+2015-01-23 15:59:40,633 : INFO : running [deepcaffe_predict_med.py eventbg 3619 3696]
+2015-01-23 15:59:41,729 : INFO : running [deepcaffe_predict_med.py eventbg 1463 1540]
+2015-01-23 18:07:23,211 : INFO : Run [deepcaffe_predict_med.py_eventbg_4235_4312]. Elapsed: 7648.0589819
+
+015-01-23 18:07:20,588 : INFO : Run [deepcaffe_predict_med.py_eventbg_2849_2926]. Elapsed: 7641.89546704
+2015-01-23 18:07:21,678 : INFO : Run [deepcaffe_predict_med.py_eventbg_4543_4620]. Elapsed: 7644.31700802
+2015-01-23 18:07:21,589 : INFO : Run [deepcaffe_predict_med.py_eventbg_1540_1617]. Elapsed: 7653.23398709
+2015-01-23 18:07:22,266 : INFO : Run [deepcaffe_predict_med.py_eventbg_3234_3311]. Elapsed: 7656.14240003
+2015-01-23 18:07:23,257 : INFO : Run [deepcaffe_predict_med.py_eventbg_0_77]. Elapsed: 7648.09171295
+99
+2015-01-23 18:07:22,310 : INFO : Run [deepcaffe_predict_med.py_eventbg_2079_2156]. Elapsed: 7641.86500788
+2015-01-23 18:07:22,751 : INFO : Run [deepcaffe_predict_med.py_eventbg_693_770]. Elapsed: 7642.31333804
+6
+2015-01-23 18:07:22,439 : INFO : Run [deepcaffe_predict_med.py_eventbg_1078_1155]. Elapsed: 7644.3664031
+2015-01-23 18:07:24,511 : INFO : Run [deepcaffe_predict_med.py_eventbg_4620_4697]. Elapsed: 7644.07440591
+2015-01-23 18:07:24,974 : INFO : Run [deepcaffe_predict_med.py_eventbg_2464_2541]. Elapsed: 7649.82280302
+2015-01-23 18:07:24,092 : INFO : Run [deepcaffe_predict_med.py_eventbg_4466_4543]. Elapsed: 7644.42073512
+2015-01-23 18:07:24,789 : INFO : Run [deepcaffe_predict_med.py_eventbg_539_616]. Elapsed: 7645.11669707
+2015-01-23 18:07:25,541 : INFO : Run [deepcaffe_predict_med.py_eventbg_308_385]. Elapsed: 7650.38894105
+6
+2015-01-23 18:07:31,501 : INFO : Run [deepcaffe_predict_med.py_eventbg_3003_3080]. Elapsed: 7656.29233599
+2015-01-23 18:07:31,581 : INFO : Run [deepcaffe_predict_med.py_eventbg_1617_1694]. Elapsed: 7656.37182188
+2015-01-23 18:07:32,866 : INFO : Run [deepcaffe_predict_med.py_eventbg_3388_3465]. Elapsed: 7657.08692694
+2015-01-23 18:07:34,657 : INFO : Run [deepcaffe_predict_med.py_eventbg_1232_1309]. Elapsed: 7658.87893891
+2015-01-23 18:07:33,265 : INFO : Run [deepcaffe_predict_med.py_eventbg_3619_3696]. Elapsed: 7654.98539495
+2015-01-23 18:08:37,798 : INFO : Run [deepcaffe_predict_med.py_eventbg_2618_2695]. Elapsed: 7740.51192307
+2015-01-23 18:08:39,310 : INFO : Run [deepcaffe_predict_med.py_eventbg_4081_4158]. Elapsed: 7742.02368402
+2015-01-23 18:08:39,883 : INFO : Run [deepcaffe_predict_med.py_eventbg_154_231]. Elapsed: 7742.59717703
+
+2015-01-23 18:08:40,097 : INFO : Run [deepcaffe_predict_med.py_eventbg_3311_3388]. Elapsed: 7720.50250196
+2015-01-23 18:08:40,912 : INFO : Run [deepcaffe_predict_med.py_eventbg_1155_1232]. Elapsed: 7722.78016782
+2015-01-23 18:08:41,326 : INFO : Run [deepcaffe_predict_med.py_eventbg_1694_1771]. Elapsed: 7720.89911485
+2015-01-23 18:08:40,929 : INFO : Run [deepcaffe_predict_med.py_eventbg_385_462]. Elapsed: 7720.59127188
+2015-01-23 18:08:42,321 : INFO : Run [deepcaffe_predict_med.py_eventbg_4312_4389]. Elapsed: 7721.98222512015-01-23 18:08:42,658 : INFO : Run [deepcaffe_predict_med.py_eventbg_3773_3850]. Elapsed: 7722.99115801
+2015-01-23 18:08:41,536 : INFO : Run [deepcaffe_predict_med.py_eventbg_924_1001]. Elapsed: 7722.47278309
+
+2015-01-23 18:08:41,591 : INFO : Run [deepcaffe_predict_med.py_eventbg_1463_1540]. Elapsed: 7721.01556396
+2015-01-23 18:08:42,221 : INFO : Run [deepcaffe_predict_med.py_eventbg_3850_3927]. Elapsed: 7722.06489396
+2015-01-23 18:08:42,694 : INFO : Run [deepcaffe_predict_med.py_eventbg_1848_1925]. Elapsed: 7722.53925204
+2015-01-23 18:08:45,997 : INFO : Run [deepcaffe_predict_med.py_eventbg_4697_4774]. Elapsed: 7749.61435914
+2015-01-23 18:08:46,471 : INFO : Run [deepcaffe_predict_med.py_eventbg_2002_2079]. Elapsed: 7750.08967209
+2015-01-23 18:08:46,851 : INFO : Run [deepcaffe_predict_med.py_eventbg_770_847]. Elapsed: 7750.46849394
+2015-01-23 18:08:56,849 : INFO : Run [deepcaffe_predict_med.py_eventbg_462_539]. Elapsed: 7739.49073601
+2015-01-23 18:08:56,983 : INFO : Run [deepcaffe_predict_med.py_eventbg_4389_4466]. Elapsed: 7739.62378597
+2015-01-23 18:08:58,493 : INFO : Run [deepcaffe_predict_med.py_eventbg_2310_2387]. Elapsed: 7741.13364005
+2015-01-23 18:08:58,720 : INFO : Run [deepcaffe_predict_med.py_eventbg_231_308]. Elapsed: 7746.19301701
+2015-01-23 18:08:59,776 : INFO : Run [deepcaffe_predict_med.py_eventbg_2541_2618]. Elapsed: 7747.25041413
+2015-01-23 18:09:00,774 : INFO : Run [deepcaffe_predict_med.py_eventbg_4158_4235]. Elapsed: 7748.24851203
+2015-01-23 18:09:02,261 : INFO : Run [deepcaffe_predict_med.py_eventbg_1925_2002]. Elapsed: 7743.05318499
+2015-01-23 18:09:02,879 : INFO : Run [deepcaffe_predict_med.py_eventbg_4851_4928]. Elapsed: 7743.67211103
+2015-01-23 18:10:33,013 : INFO : running [deepcaffe_predict_med.py eventbg 231 308]
+2015-01-23 18:10:33,021 : INFO : running [deepcaffe_predict_med.py eventbg 1463 1540]
+2015-01-23 18:10:33,232 : INFO : running [deepcaffe_predict_med.py eventbg 385 462]
+]
+2015-01-23 18:10:33,362 : INFO : running [deepcaffe_predict_med.py eventbg 308 385]
+]
+2015-01-23 18:10:33,481 : INFO : running [deepcaffe_predict_med.py eventbg 154 231]
+]
+2015-01-23 18:10:33,697 : INFO : running [deepcaffe_predict_med.py eventbg 3850 3927]2015-01-23 18:10:33,763 : INFO : running [deepcaffe_predict_med.py eventbg 2387 2464]
+01-23 18:10:33,806 : INFO : running [deepcaffe_predict_med.py eventbg 77 154]
+2015-01-23 18:10:33,809 : INFO : running [deepcaffe_predict_med.py eventbg 616 693]
+]
+2015-01-23 18:10:33,932 : INFO : running [deepcaffe_predict_med.py eventbg 2464 25412015-01-23 18:10:33,990 : INFO : running [deepcaffe_predict_med.py eventbg 2310 2387]
+15-01-23 18:10:34,036 : INFO : running [deepcaffe_predict_med.py eventbg 1848 1925]
+2015-01-23 18:10:34,071 : INFO : running [deepcaffe_predict_med.py eventbg 4620 4697]
+2015-01-23 18:10:34,094 : INFO : running [deepcaffe_predict_med.py eventbg 3465 3542]
+2015-01-23 18:10:34,139 : INFO : running [deepcaffe_predict_med.py eventbg 3388 3465]
+2015-01-23 18:10:34,191 : INFO : running [deepcaffe_predict_med.py eventbg 539 616]
+]
+2015-01-23 18:10:34,209 : INFO : running [deepcaffe_predict_med.py eventbg 3157 3234]
+2015-01-23 18:10:34,245 : INFO : running [deepcaffe_predict_med.py eventbg 770 847]
+]
+2015-01-23 18:10:34,274 : INFO : running [deepcaffe_predict_med.py eventbg 693 770]
+]
+2015-01-23 18:10:34,285 : INFO : running [deepcaffe_predict_med.py eventbg 2541 2618]
+2015-01-23 18:10:34,288 : INFO : running [deepcaffe_predict_med.py eventbg 1309 1386]
+2015-01-23 18:10:34,412 : INFO : running [deepcaffe_predict_med.py eventbg 2695 2772]
+2015-01-23 18:10:34,417 : INFO : running [deepcaffe_predict_med.py eventbg 3619 3696]
+2015-01-23 18:10:34,429 : INFO : running [deepcaffe_predict_med.py eventbg 2772 2849]
+2015-01-23 18:10:34,553 : INFO : running [deepcaffe_predict_med.py eventbg 4081 4158]
+2015-01-23 18:10:34,556 : INFO : running [deepcaffe_predict_med.py eventbg 2002 2079]
+2015-01-23 18:10:34,588 : INFO : running [deepcaffe_predict_med.py eventbg 3234 3311]
+2015-01-23 18:10:34,589 : INFO : running [deepcaffe_predict_med.py eventbg 4774 4851]
+2015-01-23 18:10:34,597 : INFO : running [deepcaffe_predict_med.py eventbg 2849 2926]
+2015-01-23 18:10:34,605 : INFO : running [deepcaffe_predict_med.py eventbg 3696 3773]
+2015-01-23 18:10:34,626 : INFO : running [deepcaffe_predict_med.py eventbg 3927 4004]
+2015-01-23 18:10:34,627 : INFO : running [deepcaffe_predict_med.py eventbg 1617 1694]
+2015-01-23 18:10:34,632 : INFO : running [deepcaffe_predict_med.py eventbg 4312 4389]
+2015-01-23 18:10:34,645 : INFO : running [deepcaffe_predict_med.py eventbg 1771 1848]
+2015-01-23 18:10:46,336 : INFO : running [deepcaffe_predict_med.py eventbg 4851 4928]
+2015-01-23 18:19:37,506 : INFO : Run [deepcaffe_predict_med.py_eventbg_3773_3850]. Elapsed: 541.499628067
+2015-01-23 18:24:23,823 : INFO : Run [deepcaffe_predict_med.py_eventbg_1155_1232]. Elapsed: 827.771962881
+2015-01-23 18:42:46,233 : INFO : Run [deepcaffe_predict_med.py_eventbg_3157_3234]. Elapsed: 1930.16561222
+2015-01-23 18:44:58,122 : INFO : Run [deepcaffe_predict_med.py_eventbg_1001_1078]. Elapsed: 2062.33289886
+2015-01-23 18:45:08,617 : INFO : Run [deepcaffe_predict_med.py_eventbg_231_308]. Elapsed: 2073.53622484
+2015-01-23 18:47:24,662 : INFO : Run [deepcaffe_predict_med.py_eventbg_4851_4928]. Elapsed: 2196.421422
+2015-01-23 18:48:00,444 : INFO : Run [deepcaffe_predict_med.py_eventbg_1232_1309]. Elapsed: 2244.52866602
+2015-01-23 18:49:45,646 : INFO : Run [deepcaffe_predict_med.py_eventbg_1078_1155]. Elapsed: 2349.73017812
+2015-01-23 18:52:02,373 : INFO : Run [deepcaffe_predict_med.py_eventbg_3619_3696]. Elapsed: 2485.99131989
+2015-01-23 18:53:28,685 : INFO : Run [deepcaffe_predict_med.py_eventbg_924_1001]. Elapsed: 2572.49330401
+2015-01-23 18:58:15,265 : INFO : Run [deepcaffe_predict_med.py_eventbg_1848_1925]. Elapsed: 2859.32985115
+2015-01-23 19:00:40,837 : INFO : Run [deepcaffe_predict_med.py_eventbg_2926_3003]. Elapsed: 3004.28007698
+2015-01-23 19:00:41,435 : INFO : Run [deepcaffe_predict_med.py_eventbg_2849_2926]. Elapsed: 3004.89776587
+2015-01-23 19:00:50,851 : INFO : Run [deepcaffe_predict_med.py_eventbg_1694_1771]. Elapsed: 3015.19456005
+2015-01-23 19:04:36,164 : INFO : Run [deepcaffe_predict_med.py_eventbg_770_847]. Elapsed: 3239.52119398
+2015-01-23 19:04:42,158 : INFO : Run [deepcaffe_predict_med.py_eventbg_308_385]. Elapsed: 3246.96999407
+2015-01-23 19:05:30,102 : INFO : Run [deepcaffe_predict_med.py_eventbg_2387_2464]. Elapsed: 3293.86150002
+2015-01-23 19:05:51,377 : INFO : Run [deepcaffe_predict_med.py_eventbg_3542_3619]. Elapsed: 3315.15452313
+2015-01-23 19:06:48,513 : INFO : Run [deepcaffe_predict_med.py_eventbg_1617_1694]. Elapsed: 3371.93276906
+2015-01-23 19:09:13,900 : INFO : Run [deepcaffe_predict_med.py_eventbg_1925_2002]. Elapsed: 3517.24520993
+2015-01-23 19:10:07,778 : INFO : Run [deepcaffe_predict_med.py_eventbg_1386_1463]. Elapsed: 3571.39621401
+2015-01-23 19:11:40,179 : INFO : Run [deepcaffe_predict_med.py_eventbg_154_231]. Elapsed: 3664.25899601
+2015-01-23 19:12:19,882 : INFO : Run [deepcaffe_predict_med.py_eventbg_3080_3157]. Elapsed: 3703.377213
+2015-01-23 19:12:47,816 : INFO : Run [deepcaffe_predict_med.py_eventbg_1771_1848]. Elapsed: 3731.235111
+2015-01-23 19:13:04,881 : INFO : Run [deepcaffe_predict_med.py_eventbg_4928_4992]. Elapsed: 3736.96666813
+2015-01-23 19:13:21,378 : INFO : Run [deepcaffe_predict_med.py_eventbg_3003_3080]. Elapsed: 3764.81167889
+2015-01-23 19:14:28,335 : INFO : Run [deepcaffe_predict_med.py_eventbg_1540_1617]. Elapsed: 3833.17576909
+2015-01-23 19:15:08,798 : INFO : Run [deepcaffe_predict_med.py_eventbg_3850_3927]. Elapsed: 3873.14059019
+2015-01-23 19:16:45,641 : INFO : Run [deepcaffe_predict_med.py_eventbg_4466_4543]. Elapsed: 3969.63233399
+2015-01-23 19:17:05,524 : INFO : Run [deepcaffe_predict_med.py_eventbg_385_462]. Elapsed: 3989.85593581
+2015-01-23 19:18:10,580 : INFO : Run [deepcaffe_predict_med.py_eventbg_3234_3311]. Elapsed: 4054.03820109
+2015-01-23 19:21:01,039 : INFO : Run [deepcaffe_predict_med.py_eventbg_2233_2310]. Elapsed: 4224.43751717
+2015-01-23 19:21:51,688 : INFO : Run [deepcaffe_predict_med.py_eventbg_3388_3465]. Elapsed: 4275.62379789
+2015-01-23 19:22:05,393 : INFO : Run [deepcaffe_predict_med.py_eventbg_4620_4697]. Elapsed: 4289.40228987
+2015-01-23 19:24:50,138 : INFO : Run [deepcaffe_predict_med.py_eventbg_847_924]. Elapsed: 4453.70153785
+2015-01-23 19:27:11,296 : INFO : Run [deepcaffe_predict_med.py_eventbg_3696_3773]. Elapsed: 4594.76030684
+2015-01-23 19:28:13,875 : INFO : Run [deepcaffe_predict_med.py_eventbg_2002_2079]. Elapsed: 4657.36838603
+2015-01-23 19:29:23,008 : INFO : Run [deepcaffe_predict_med.py_eventbg_2541_2618]. Elapsed: 4726.78616619
+2015-01-23 19:29:33,523 : INFO : Run [deepcaffe_predict_med.py_eventbg_2695_2772]. Elapsed: 4737.13936687
+2015-01-23 19:30:24,901 : INFO : Run [deepcaffe_predict_med.py_eventbg_462_539]. Elapsed: 4788.97355103
+2015-01-23 19:31:32,380 : INFO : Run [deepcaffe_predict_med.py_eventbg_4004_4081]. Elapsed: 4855.82149696
+2015-01-23 19:33:58,384 : INFO : Run [deepcaffe_predict_med.py_eventbg_3465_3542]. Elapsed: 5002.34141612
+2015-01-23 19:35:31,462 : INFO : Run [deepcaffe_predict_med.py_eventbg_2156_2233]. Elapsed: 5094.88438487
+2015-01-23 19:36:30,893 : INFO : Run [deepcaffe_predict_med.py_eventbg_4312_4389]. Elapsed: 5154.32103515
+2015-01-23 19:39:07,263 : INFO : Run [deepcaffe_predict_med.py_eventbg_2772_2849]. Elapsed: 5310.46755695
+2015-01-23 19:39:12,385 : INFO : Run [deepcaffe_predict_med.py_eventbg_4774_4851]. Elapsed: 5315.84740806
+2015-01-23 19:40:12,482 : INFO : Run [deepcaffe_predict_med.py_eventbg_4081_4158]. Elapsed: 5375.98612094
+2015-01-23 19:42:23,940 : INFO : Run [deepcaffe_predict_med.py_eventbg_4158_4235]. Elapsed: 5507.42976499
+2015-01-23 19:43:31,857 : INFO : Run [deepcaffe_predict_med.py_eventbg_2310_2387]. Elapsed: 5575.42525315
+2015-01-23 19:45:12,533 : INFO : Run [deepcaffe_predict_med.py_eventbg_4235_4312]. Elapsed: 5675.67584705
+2015-01-23 19:46:37,480 : INFO : Run [deepcaffe_predict_med.py_eventbg_0_77]. Elapsed: 5761.70378709
+2015-01-23 19:47:20,029 : INFO : Run [deepcaffe_predict_med.py_eventbg_3311_3388]. Elapsed: 5803.45340896
+2015-01-23 19:47:29,480 : INFO : Run [deepcaffe_predict_med.py_eventbg_2618_2695]. Elapsed: 5813.57034278
+2015-01-23 19:52:57,613 : INFO : Run [deepcaffe_predict_med.py_eventbg_693_770]. Elapsed: 6140.82984281
+2015-01-23 19:58:10,664 : INFO : Run [deepcaffe_predict_med.py_eventbg_1309_1386]. Elapsed: 6454.40433288
+2015-01-23 19:59:20,093 : INFO : Run [deepcaffe_predict_med.py_eventbg_3927_4004]. Elapsed: 6523.52092505
+2015-01-23 20:00:36,589 : INFO : Run [deepcaffe_predict_med.py_eventbg_4389_4466]. Elapsed: 6600.519835
+2015-01-23 20:00:37,239 : INFO : Run [deepcaffe_predict_med.py_eventbg_4543_4620]. Elapsed: 6600.69633889
+2015-01-23 20:07:04,809 : INFO : Run [deepcaffe_predict_med.py_eventbg_2079_2156]. Elapsed: 6988.01351881
+2015-01-23 20:08:00,306 : INFO : Run [deepcaffe_predict_med.py_eventbg_4697_4774]. Elapsed: 7044.69751215
+2015-01-23 20:11:17,779 : INFO : Run [deepcaffe_predict_med.py_eventbg_616_693]. Elapsed: 7242.01383996
+2015-01-23 20:23:36,670 : INFO : Run [deepcaffe_predict_med.py_eventbg_539_616]. Elapsed: 7980.02969503
+2015-01-23 20:39:35,922 : INFO : Run [deepcaffe_predict_med.py_eventbg_1463_1540]. Elapsed: 8940.82200408
+2015-01-23 21:16:34,757 : INFO : Run [deepcaffe_predict_med.py_eventbg_2464_2541]. Elapsed: 11158.961844

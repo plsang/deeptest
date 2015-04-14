@@ -4,7 +4,7 @@
 # Force to use shell sh. Note that #$ is SGE command
 #$ -S /bin/sh
 # Force to limit hosts running jobs
-#$ -q all.q@@bc4hosts
+#$ -q all.q@@bc3hosts,all.q@@bc4hosts
 # Log starting time
 date 
 # for opencv shared lib
@@ -14,14 +14,14 @@ export PATH
 export LD_LIBRARY_PATH
 
 # Log info of the job to output file  *** CHANGED ***
-echo [$HOSTNAME] [$JOB_ID] [python deepcaffe_predict_med.py $1 $2]
+echo [$HOSTNAME] [$JOB_ID] [python deepcaffe_predict_med.py $1 $2 $3]
 # change to the code dir  --> NEW!!! *** CHANGED ***
 cd /net/per610a/export/das11f/plsang/codes/deeptest
 # Log info of current dir
 pwd
 # Command - -->  must use " (double quote) for $2 because it contains a string  --- *** CHANGED ***
 # LD_PRELOAD="/net/per900a/raid0/plsang/usr.local/lib/libstdc++.so.6" matlab -nodisplay -r "densetraj_encode_sge( '$1', '$2', '$3', $4, $5 )"
-python deepcaffe_predict_med.py $1 $2
+python deepcaffe_predict_med.py $1 $2 $3
 # Log ending time
 date
 

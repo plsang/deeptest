@@ -1,0 +1,106 @@
+2015-01-24 09:35:05,915 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 2270 2497]
+2015-01-24 09:35:05,926 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 8626 8853]
+15-01-24 09:35:10,618 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 5902 6129]
+2015-01-24 09:35:10,633 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 11577 118042015-01-24 09:35:11,083 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 1135 1362]
+]
+2015-01-24 09:35:11,424 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 13166 133932015-01-24 09:35:11,439 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 10442 10669]
+-01-24 09:35:11,913 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 6129 6356]
+2015-01-24 09:35:11,916 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 11350 115772015-01-24 09:35:12,022 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 9080 9307]
+]
+2015-01-24 09:35:12,031 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 6810 7037]
+2015-01-24 09:35:12,032 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 3178 3405]
+2015-01-24 09:35:12,071 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 2724 2951]
+2015-01-24 09:35:12,125 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 9307 9534]
+2015-01-24 09:35:12,156 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 12712 12939]
+2015-01-24 09:35:12,156 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 4086 4313]
+2015-01-24 09:35:12,290 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 11804 12031]
+2015-01-24 09:35:12,296 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 681 908]
+]
+2015-01-24 09:35:12,429 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 13847 14074]
+2015-01-24 09:35:12,431 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 10669 10896]
+15-01-24 09:35:12,511 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 10215 10442]
+2015-01-24 09:35:12,602 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 6356 6583]
+2015-01-24 09:35:12,607 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 0 227]
+4301]
+2015-01-24 09:35:13,182 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 5221 5448]
+2015-01-24 09:35:13,182 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 10896 111232015-01-24 09:35:13,358 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 13393 13620]
+15-01-24 09:35:13,364 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 12485 12712]
+2015-01-24 09:35:13,424 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 5448 5675]
+2015-01-24 09:35:13,424 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 908 1135]
+7]
+2015-01-24 09:35:13,473 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 7718 7945]
+2015-01-24 09:35:14,037 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 1362 1589]
+2015-01-24 09:35:14,218 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 8853 9080]
+2015-01-24 09:35:14,291 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 8399 8626]
+
+2015-01-24 09:35:15,137 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 3859 4086]
+2015-01-24 09:35:15,712 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 2951 3178]
+]
+2015-01-24 09:35:17,464 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 4313 4540]
+2015-01-24 09:35:17,469 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 7037 7264]
+2015-01-24 09:43:31,225 : INFO : Start [deepcaffe_predict_med_fc7.py kindredtest14 14528 14708]
+2015-01-24 21:56:28,053 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 14528 14708]. Elapsed: 43974.9999621. Processed: 16991 frames. Average: 2.588 s/KF
+2015-01-24 22:47:56,105 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 9761 9988]. Elapsed: 47552.6174698. Processed: 18095 frames. Average: 2.628 s/KF
+2015-01-24 22:55:34,693 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 1362 1589]. Elapsed: 47997.5863049. Processed: 18303 frames. Average: 2.622 s/KF
+2015-01-24 23:06:21,480 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 9307 9534]. Elapsed: 48640.2110388. Processed: 18241 frames. Average: 2.667 s/KF
+2015-01-24 23:12:47,226 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 8626 8853]. Elapsed: 49056.5823181. Processed: 18414 frames. Average: 2.664 s/KF
+2015-01-24 23:17:28,164 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 7491 7718]. Elapsed: 49307.257647. Processed: 18708 frames. Average: 2.636 s/KF
+2015-01-24 23:18:39,712 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 8399 8626]. Elapsed: 49380.219789. Processed: 18750 frames. Average: 2.634 s/KF
+2015-01-24 23:20:56,050 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 9534 9761]. Elapsed: 49518.92309. Processed: 18936 frames. Average: 2.615 s/KF
+2015-01-24 23:25:07,236 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 2951 3178]. Elapsed: 49765.5748889. Processed: 18949 frames. Average: 2.626 s/KF
+2015-01-24 23:26:14,086 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 3632 3859]. Elapsed: 49832.335459. Processed: 18538 frames. Average: 2.688 s/KF
+2015-01-24 23:26:27,546 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 3859 4086]. Elapsed: 49845.6727409. Processed: 18666 frames. Average: 2.670 s/KF
+2015-01-24 23:33:35,230 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 9080 9307]. Elapsed: 50274.521229. Processed: 18842 frames. Average: 2.668 s/KF
+2015-01-24 23:49:33,569 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 7945 8172]. Elapsed: 51231.9089768. Processed: 19353 frames. Average: 2.647 s/KF
+2015-01-24 23:52:41,227 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 9988 10215]. Elapsed: 51419.3554161. Processed: 19179 frames. Average: 2.681 s/KF
+2015-01-25 00:19:01,265 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 454 681]. Elapsed: 53003.7541499. Processed: 19175 frames. Average: 2.764 s/KF
+2015-01-25 00:24:26,676 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 4540 4767]. Elapsed: 53328.7076979. Processed: 20003 frames. Average: 2.666 s/KF
+2015-01-25 00:28:18,604 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 1135 1362]. Elapsed: 53575.141506. Processed: 20403 frames. Average: 2.626 s/KF
+2015-01-25 00:35:13,478 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 1589 1816]. Elapsed: 53972.2103589. Processed: 20610 frames. Average: 2.619 s/KF
+2015-01-25 00:49:51,239 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 8172 8399]. Elapsed: 54851.193373. Processed: 20635 frames. Average: 2.658 s/KF
+2015-01-25 00:50:25,416 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 681 908]. Elapsed: 54883.9601631. Processed: 17456 frames. Average: 3.144 s/KF
+2015-01-25 00:52:42,963 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 2270 2497]. Elapsed: 55052.3195009. Processed: 20703 frames. Average: 2.659 s/KF
+2015-01-25 00:56:47,225 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 10215 10442]. Elapsed: 55265.4740829. Processed: 20742 frames. Average: 2.664 s/KF
+2015-01-25 00:59:45,148 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 8853 9080]. Elapsed: 55447.4807589. Processed: 20978 frames. Average: 2.643 s/KF
+2015-01-25 01:03:14,642 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 1816 2043]. Elapsed: 55653.93258. Processed: 20981 frames. Average: 2.653 s/KF
+2015-01-25 01:06:44,811 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 2043 2270]. Elapsed: 55867.1441979. Processed: 21360 frames. Average: 2.616 s/KF
+2015-01-25 01:28:56,794 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 2724 2951]. Elapsed: 57196.7482309. Processed: 21374 frames. Average: 2.676 s/KF
+2015-01-25 01:40:11,066 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 7264 7491]. Elapsed: 57870.1190751. Processed: 18280 frames. Average: 3.166 s/KF
+2015-01-25 01:49:28,223 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 10442 10669]. Elapsed: 58430.2562759. Processed: 21851 frames. Average: 2.674 s/KF
+2015-01-25 01:56:07,859 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 7718 7945]. Elapsed: 58827.240654. Processed: 18214 frames. Average: 3.230 s/KF
+2015-01-25 01:56:41,663 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 5448 5675]. Elapsed: 58859.8681688. Processed: 18507 frames. Average: 3.180 s/KF
+2015-01-25 02:10:04,767 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 3405 3632]. Elapsed: 59663.5225651. Processed: 18812 frames. Average: 3.172 s/KF
+2015-01-25 02:10:27,523 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 13393 13620]. Elapsed: 59688.1976738. Processed: 19052 frames. Average: 3.133 s/KF
+2015-01-25 02:11:01,322 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 10669 10896]. Elapsed: 59720.8488019. Processed: 18801 frames. Average: 3.176 s/KF
+2015-01-25 02:13:37,397 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 6356 6583]. Elapsed: 59876.8787761. Processed: 18795 frames. Average: 3.186 s/KF
+2015-01-25 02:21:03,831 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 2497 2724]. Elapsed: 60324.3379281. Processed: 22610 frames. Average: 2.668 s/KF
+2015-01-25 02:24:14,579 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 5221 5448]. Elapsed: 60513.098294. Processed: 19005 frames. Average: 3.184 s/KF
+2015-01-25 02:26:16,357 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 3178 3405]. Elapsed: 60638.0056679. Processed: 18997 frames. Average: 3.192 s/KF
+2015-01-25 02:34:11,259 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 6129 6356]. Elapsed: 61114.08166. Processed: 19333 frames. Average: 3.161 s/KF
+2015-01-25 02:37:21,118 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 4994 5221]. Elapsed: 61301.7922671. Processed: 19319 frames. Average: 3.173 s/KF
+2015-01-25 02:39:30,883 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 4086 4313]. Elapsed: 61429.9340589. Processed: 19278 frames. Average: 3.187 s/KF
+2015-01-25 02:42:57,308 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 10896 11123]. Elapsed: 61635.8250492. Processed: 19220 frames. Average: 3.207 s/KF
+2015-01-25 02:43:51,969 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 6583 6810]. Elapsed: 61690.6884272. Processed: 19408 frames. Average: 3.179 s/KF
+2015-01-25 02:46:25,560 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 11577 11804]. Elapsed: 61848.0492249. Processed: 19408 frames. Average: 3.187 s/KF
+2015-01-25 02:51:40,411 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 4767 4994]. Elapsed: 62159.9377201. Processed: 19504 frames. Average: 3.187 s/KF
+2015-01-25 02:52:32,399 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 7037 7264]. Elapsed: 62210.6190288. Processed: 19409 frames. Average: 3.205 s/KF
+2015-01-25 02:54:57,932 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 227 454]. Elapsed: 62360.75421. Processed: 19645 frames. Average: 3.174 s/KF
+2015-01-25 02:57:47,790 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 14074 14301]. Elapsed: 62526.3065369. Processed: 19767 frames. Average: 3.163 s/KF
+2015-01-25 03:00:22,388 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 11350 11577]. Elapsed: 62685.2108901. Processed: 19751 frames. Average: 3.174 s/KF
+2015-01-25 03:01:09,203 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 12939 13166]. Elapsed: 62727.4285951. Processed: 19743 frames. Average: 3.177 s/KF
+2015-01-25 03:02:38,090 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 908 1135]. Elapsed: 62816.296149. Processed: 19606 frames. Average: 3.204 s/KF
+2015-01-25 03:04:24,761 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 6810 7037]. Elapsed: 62926.4121699. Processed: 19682 frames. Average: 3.197 s/KF
+2015-01-25 03:05:32,598 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 11123 11350]. Elapsed: 62992.0793729. Processed: 19865 frames. Average: 3.171 s/KF
+2015-01-25 03:11:20,886 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 5675 5902]. Elapsed: 63339.4321802. Processed: 19796 frames. Average: 3.200 s/KF
+2015-01-25 03:24:08,220 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 13847 14074]. Elapsed: 64107.7474151. Processed: 19983 frames. Average: 3.208 s/KF
+2015-01-25 03:29:58,675 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 5902 6129]. Elapsed: 64461.1645689. Processed: 20163 frames. Average: 3.197 s/KF
+2015-01-25 03:31:22,440 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 12712 12939]. Elapsed: 64541.4929779. Processed: 20087 frames. Average: 3.213 s/KF
+2015-01-25 03:41:43,595 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 11804 12031]. Elapsed: 65162.1421149. Processed: 20275 frames. Average: 3.214 s/KF
+2015-01-25 03:52:06,928 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 12031 12258]. Elapsed: 65785.133321. Processed: 20519 frames. Average: 3.206 s/KF
+2015-01-25 04:21:36,391 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 14301 14528]. Elapsed: 67559.5350571. Processed: 19331 frames. Average: 3.495 s/KF
+2015-01-25 04:25:02,558 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 12485 12712]. Elapsed: 67761.3157539. Processed: 21151 frames. Average: 3.204 s/KF
+2015-01-25 04:32:18,111 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 12258 12485]. Elapsed: 68199.7629941. Processed: 21262 frames. Average: 3.208 s/KF
+2015-01-25 05:05:26,632 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 0 227]. Elapsed: 70186.113899. Processed: 26600 frames. Average: 2.639 s/KF
+2015-01-25 05:39:01,311 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 13166 13393]. Elapsed: 72204.4554801. Processed: 20805 frames. Average: 3.471 s/KF
+2015-01-25 05:46:50,550 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 4313 4540]. Elapsed: 72668.7757201. Processed: 22837 frames. Average: 3.182 s/KF
+2015-01-25 05:51:45,745 : INFO : End [deepcaffe_predict_med_fc7.py kindredtest14 13620 13847]. Elapsed: 72965.1380072. Processed: 22427 frames. Average: 3.253 s/KF
