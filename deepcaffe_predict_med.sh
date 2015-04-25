@@ -4,7 +4,8 @@
 # Force to use shell sh. Note that #$ is SGE command
 #$ -S /bin/sh
 # Force to limit hosts running jobs
-#$ -q all.q@@bc3hosts,all.q@@bc4hosts
+# -q all.q@@bc3hosts,all.q@@bc4hosts
+#$ -q all.q@@allhosts
 # Log starting time
 date 
 # for opencv shared lib
