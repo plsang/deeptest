@@ -10,13 +10,11 @@ function placehybridCNN_aggregate_feature_med2012(feat_name, dcnn_layer, feat_di
     fprintf('Loading meta file <%s>\n', filename);
     load(filename, 'MEDMD');
     
-    feat_name = 'placehybridCNN';
-    dcnn_layer = 'full';
     feat_pat = sprintf('%s.%s', feat_name, dcnn_layer);
     
     
     feat_root_dir = '/net/per610a/export/das11f/plsang/trecvidmed/feature/keyframes';
-    feat_dir = sprintf('%s/%s', fea_root_dir, feat_pat);
+    feat_dir = sprintf('%s/%s', feat_root_dir, feat_pat);
     
     output_root_dir = '/net/per610a/export/das11f/plsang/trecvidmed/feature/keyframes2video';
     output_dir = sprintf('%s/%s', output_root_dir, feat_pat);
@@ -48,7 +46,8 @@ function placehybridCNN_aggregate_feature_med2012(feat_name, dcnn_layer, feat_di
         
         for jj=1:num_keyframes,
             feat_file = sprintf('%s/%s/%s', feat_dir, ldc_pat(1:end-4), kfs(jj).name);
-            fh = fopen(feat_file);
+            fh = fopen(feat_file, 'r');
+            
             if strcmp(feat_fmt, 'full'),
                 code_ = textscan(fh, '%f');
                 code(:, jj) = code_{1};
