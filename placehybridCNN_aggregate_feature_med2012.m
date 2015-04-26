@@ -20,6 +20,9 @@ function placehybridCNN_aggregate_feature_med2012(feat_name, dcnn_layer, feat_di
     output_dir = sprintf('%s/%s', output_root_dir, feat_pat);
     if ~exist(output_dir, 'file'), mkdir(output_dir); end;
     
+    %% all kfs
+    output_allkf_dir = sprintf('%s/%s.allkf', feat_root_dir, feat_pat);
+    if ~exist(output_allkf_dir, 'file'), mkdir(output_allkf_dir); end;
     
     for ii=1:length(MEDMD.clips),
     
@@ -29,12 +32,20 @@ function placehybridCNN_aggregate_feature_med2012(feat_name, dcnn_layer, feat_di
         ldc_pat = MEDMD.info.(video_id).loc;
         
         output_file = sprintf('%s/%s.mat', output_dir, ldc_pat(1:end-4));
-        if exist(output_file, 'file'),
-            fprintf('File already exist <%s> \n', output_file);
+        
+        output_allkf_file = sprintf('%s/%s.mat', output_allkf_dir, ldc_pat(1:end-4));
+        
+        if exist(output_file, 'file') && exist(output_allkf_file, 'file'),
+            %fprintf('File already exist <%s> \n', output_file);
+            continue;
         end
         
         if ~exist(fileparts(output_file), 'file'),
             mkdir(fileparts(output_file));
+        end
+        
+        if ~exist(fileparts(output_allkf_file), 'file'),
+            mkdir(fileparts(output_allkf_file));
         end
         
         video_kf_dir = fullfile(feat_dir, ldc_pat);
@@ -60,9 +71,14 @@ function placehybridCNN_aggregate_feature_med2012(feat_name, dcnn_layer, feat_di
             fclose(fh);
         end
         
-        code = sum(code, 2);
+        if ~exist(output_allkf_file, 'file'),
+            save(output_allkf_file, 'code');
+        end
         
-        save(output_file, 'code');
+        if ~exist(output_file, 'file'),
+            code = sum(code, 2);
+            save(output_file, 'code');
+        end
         
     end    
 
