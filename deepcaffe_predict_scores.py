@@ -3,7 +3,7 @@
 
 import os
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import time
 import logging
 import pandas as pd
@@ -124,7 +124,7 @@ if __name__=="__main__":
 	for ii in range(start_video, end_video):
 		vid = videos[ii]
 		
-		#if vid != 'HVC128378':
+		#if vid != 'HVC124171':
 		#	continue
 			
 		print ' {}/{} Extracting deep caffe feature for video [{}]...'.format(ii, end_video - start_video, vid)
@@ -147,19 +147,19 @@ if __name__=="__main__":
 		for kf_file in kfs:
 			head, tail = os.path.split(kf_file)	
 			kf_name = os.path.splitext(tail)[0]
-
+            
 			starttime = time.time()
 			preds = classify_image(kf_file)
 			endtime = time.time()
-			print 'Extracted deep caffe feature for [{}] in {} s.'.format(kf_name, endtime-starttime)
+			#print 'Extracted deep caffe feature for [{}] in {} s.'.format(kf_name, endtime-starttime)
 			
 			#with open(output_file, 'w') as fh:
 			#	for (x, y) in preds:
 			#		fh.write('{}\n'.format(y))
 			#print kfs.index(kf_file)
-			print preds.shape
 			
-			scores[kfs.index(kf_file), :] = preds
+			if preds[0] != False:
+				scores[kfs.index(kf_file), :] = preds
 		
 		#print 'Saving scores file'
 		np.save(output_scores_file, scores)
