@@ -1,7 +1,9 @@
-function [scores, maxlabel] = matcaffe_extract_place205_hybrid(im_path, layer_name)
+function [scores, maxlabel] = matcaffe_extract_feature(model_name, im_path, layer_name, varargin)
 %% Author: Sang Phan
 %% Jan 27, 2015
 %% layer_name: fc6 (4096d), fc7 (4096d), full (1000d)
+%% model_name: default by DeepCaffe, Places205, PlacesHybrid, VeryDeep
+%% varargin: 'numlayer' for verydeep model
 % scores = matcaffe_demo(im, use_gpu)
 %
 % Demo of the matlab wrapper using the ILSVRC network.
@@ -50,9 +52,40 @@ function [scores, maxlabel] = matcaffe_extract_place205_hybrid(im_path, layer_na
 
 use_gpu = 0;
 
-model_def_dir = '/net/per920a/export/das14a/satoh-lab/plsang/places205/hybridCNN_upgraded/';
-model_def_file = sprintf('%s/__hybridCNN_deploy_upgraded.%s.prototxt', model_def_dir, layer_name);
-model_file = sprintf('%s/%s', model_def_dir, 'hybridCNN_iter_700000_upgraded.caffemodel');
+
+for k=1:2:length(varargin),
+
+	opt = lower(varargin{k});
+	arg = varargin{k+1};
+	
+	switch opt
+		case 'numlayer'
+			numlayer = arg;
+		otherwise
+			error(sprintf('Option ''%s'' unknown.', opt)) ;
+	end  
+end
+
+switch model_name,
+	case 'caffe'
+		model_def_dir = '/net/per610a/export/das11f/plsang/deepcaffe/caffe-rc/models/bvlc_reference_caffenet/';
+		model_def_file = sprintf('%s/__deploy_matlab.%s.prototxt', model_def_dir, layer_name);
+		model_file = '/net/per610a/export/das11f/plsang/deepcaffe/caffe-rc/models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel';
+	case 'places205'
+		model_def_dir = '/net/per920a/export/das14a/satoh-lab/plsang/places205/placesCNN_upgraded';
+		model_def_file = sprintf('%s/__places205CNN_deploy_upgraded.%s.prototxt', model_def_dir, layer_name);
+		model_file = sprintf('%s/%s', model_def_dir, 'places205CNN_iter_300000_upgraded.caffemodel');
+	case 'placeshybrid'
+		model_def_dir = '/net/per920a/export/das14a/satoh-lab/plsang/places205/hybridCNN_upgraded';
+		model_def_file = sprintf('%s/__hybridCNN_deploy_upgraded.%s.prototxt', model_def_dir, layer_name);
+		model_file = sprintf('%s/%s', model_def_dir, 'hybridCNN_iter_700000_upgraded.caffemodel');
+	case 'verydeep'
+		model_def_dir = '/net/per920a/export/das14a/satoh-lab/plsang/very_deep/caffe';
+		model_def_file = sprintf('%s/VGG_ILSVRC_%d_layers_deploy.%s.prototxt', model_def_dir, numlayer, layer_name);
+		model_file = sprintf('%s/VGG_ILSVRC_%d_layers.caffemodel', model_def_dir, numlayer);
+	otherwise
+		error('unknown model name <%s> \n', model_name);
+end
 
 matcaffe_init(use_gpu, model_def_file, model_file);
 
@@ -61,7 +94,7 @@ im = imread(im_path);
 % prepare oversampled input
 % input_data is Height x Width x Channel x Num
 tic;
-input_data = {prepare_image(im)};
+input_data = {prepare_image(im, model_name)};
 toc;
 
 % do forward pass to get scores
@@ -78,12 +111,18 @@ scores = mean(scores,2);
 [~,maxlabel] = max(scores);
 
 % ------------------------------------------------------------------------
-function images = prepare_image(im)
+function images = prepare_image(im, model_name)
 % ------------------------------------------------------------------------
-d = load('ilsvrc_2012_mean');
+d = load('/net/per610a/export/das11f/plsang/deepcaffe/caffe-rc/matlab/caffe/ilsvrc_2012_mean.mat');
 IMAGE_MEAN = d.image_mean;
 IMAGE_DIM = 256;
-CROPPED_DIM = 227;
+
+switch model_name,
+	case 'verydeep'
+		CROPPED_DIM = 224;
+	otherwise
+		CROPPED_DIM = 227;
+end
 
 % resize to fixed input size
 im = single(im);
