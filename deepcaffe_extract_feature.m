@@ -1,10 +1,11 @@
-function deepcaffe_extract_feature( model_name, dataset, layer_name, numlayer, start_seg, end_seg)
+function deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, numlayer, start_seg, end_seg)
 	
 	addpath('/net/per610a/export/das11f/plsang/deepcaffe/caffe-rc/matlab/caffe');
 	
-	if nargin < 3,
-        fprintf('Usage: deepcaffe_extract_feature( model_name, dataset, layer_name, start_seg, end_seg ) \n');
+	if nargin < 4,
+        fprintf('Usage: deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, start_seg, end_seg ) \n');
         fprintf(' @param: model_name (caffe, places205, placeshybrid, verydeep) \n');
+		fprintf(' @param: pat_list (ek100ps14, ek10ps14, bg, kindred14, medtest14, train12, test12, train14) \n');
 		fprintf(' @varargin: numlayer (16, 19) (for verydeep network) \n');
 		fprintf(' @varargin: start - start_seg \n');
 		fprintf(' @varargin: end - end_seg \n');
@@ -16,15 +17,74 @@ function deepcaffe_extract_feature( model_name, dataset, layer_name, numlayer, s
     if strcmp(dataset, 'med2012'),
         meta_file = '/net/per610a/export/das11f/plsang/trecvidmed/metadata/med12/medmd_2012.mat';
         load(meta_file);
-        clips = MEDMD.clips;
     elseif strcmp(dataset, 'med2014'),
         meta_file = '/net/per610a/export/das11f/plsang/trecvidmed14/metadata/medmd_2014_devel_ps.mat';
         load(meta_file);
-        clips = MEDMD.videos;
     else
         error('unknown dataset <%s> \n', dataset);
     end
     
+	supported_pat_list = {'ek100ps14', 'ek10ps14', 'bg', 'kindred14', 'medtest14', 'train12', 'test12', 'train14'};
+	
+	    clips = []; 
+    durations = [];
+    for supported_pat = supported_pat_list,
+        if ~isempty(strfind(pat_list, supported_pat{:})),
+            switch supported_pat{:},
+                case 'bg'
+                    clips_ = MEDMD.EventBG.default.clips;
+                    durations_ = MEDMD.EventBG.default.durations;
+                case 'kindred14'
+                    clips_ = MEDMD.RefTest.KINDREDTEST.clips;
+                    durations_ = MEDMD.RefTest.KINDREDTEST.durations;
+                case 'medtest14'
+                    clips_ = MEDMD.RefTest.MEDTEST.clips;
+                    durations_ = MEDMD.RefTest.MEDTEST.durations;
+                case 'ek100ps14'
+                    clips_ = MEDMD.EventKit.EK100Ex.clips;
+                    durations_ = MEDMD.EventKit.EK100Ex.durations;
+                    %% only select e20-e40
+                    sel_idx = zeros(1, length(clips_));
+                    for ii=21:40,
+                        event_id = sprintf('E%03d', ii);
+                        sel_idx = sel_idx | ismember(clips_, MEDMD.EventKit.EK100Ex.judge.(event_id).positive);
+                        sel_idx = sel_idx | ismember(clips_, MEDMD.EventKit.EK100Ex.judge.(event_id).miss);
+                    end
+                    clips_ = clips_(sel_idx);
+                    durations_ = durations_(sel_idx);
+                case 'train12'
+                    clips_ = MEDMD.Train.clips;
+                    durations_ = MEDMD.Train.durations;
+                
+                case 'test12'
+                    clips_ = MEDMD.Test.clips;
+                    durations_ = MEDMD.Test.durations;
+                    
+                case 'train14'
+                    clips_ = MEDMD.videos;
+                    durations_ = zeros(1, length(clips_));
+                    for ii=1:length(clips_),
+                        clip_id = clips_{ii};
+                        if isfield(MEDMD.info, clip_id),
+                            durations_(ii) = MEDMD.info.(clip_id).duration;
+                        end
+                    end
+            end
+            
+            clips = [clips, clips_];
+            durations = [durations, durations_];
+        end
+    end
+	
+	if ~isempty(strfind(pat_list, '--count')),
+        fprintf('Total clips: %d \n', length(clips));
+        fprintf('Total durations: %.3f hours \n', sum(durations)/3600 );
+        return;
+    end
+    
+    [durations, sorted_idx] = sort(durations, 'descend');
+    clips = clips(sorted_idx);
+	
     %%%% feature dim
     if strcmp(layer_name, 'full'),
 		switch model_name,
@@ -36,6 +96,8 @@ function deepcaffe_extract_feature( model_name, dataset, layer_name, numlayer, s
 				feat_dim = 1183;
 			case 'verydeep'
 				feat_dim = 1000;
+			case 'googlenet'
+				feat_dim = 1000;	
 			otherwise
 				error('unknown model name <%s> \n', model_name);
 		end
@@ -51,6 +113,7 @@ function deepcaffe_extract_feature( model_name, dataset, layer_name, numlayer, s
     if ~exist('end_seg', 'var') || end_seg > length(clips), end_seg = length(clips); end;
     
     %tic
+	
 	
 	proj_dir = '/net/per610a/export/das11f/plsang/trecvidmed';
     kf_dir = sprintf('%s/keyframes/', proj_dir);
