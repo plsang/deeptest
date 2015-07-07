@@ -1,6 +1,7 @@
 function deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, numlayer, start_seg, end_seg)
 	
 	addpath('/net/per610a/export/das11f/plsang/deepcaffe/caffe-rc/matlab/caffe');
+    addpath('/net/per610a/export/das11f/plsang/codes/common');
 	
 	if nargin < 4,
         fprintf('Usage: deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, start_seg, end_seg ) \n');
@@ -20,11 +21,14 @@ function deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, n
     elseif strcmp(dataset, 'med2014'),
         meta_file = '/net/per610a/export/das11f/plsang/trecvidmed14/metadata/medmd_2014_devel_ps.mat';
         load(meta_file);
+    elseif strcmp(dataset, 'med15eval'),
+        meta_file = '/net/per610a/export/das11f/plsang/trecvidmed/metadata/med15/med15_eval.mat';
+        load(meta_file);
     else
         error('unknown dataset <%s> \n', dataset);
     end
     
-	supported_pat_list = {'ek100ps14', 'ek10ps14', 'bg', 'kindred14', 'medtest14', 'train12', 'test12', 'train14'};
+	supported_pat_list = {'ek100ps14', 'ek10ps14', 'bg', 'kindred14', 'medtest14', 'train12', 'test12', 'train14', 'med15eval'};
 	
 	    clips = []; 
     durations = [];
@@ -69,6 +73,9 @@ function deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, n
                             durations_(ii) = MEDMD.info.(clip_id).duration;
                         end
                     end
+                case 'med15eval'
+                    clips_ =  MEDMD.UnrefTest.MED15EvalFull.clips;
+					durations_ = MEDMD.UnrefTest.MED15EvalFull.durations;
             end
             
             clips = [clips, clips_];
@@ -149,8 +156,8 @@ function deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, n
             continue;
         end
         
-        output_kf_dir = fileparts(output_file);
-        if ~exist(output_kf_dir), mkdir(output_kf_dir); end;
+        %output_kf_dir = fileparts(output_file);
+        %if ~exist(output_kf_dir), mkdir(output_kf_dir); end;
         
         code = zeros(feat_dim, length(kfs), 'single');
 		for jj = 1:length(kfs),
@@ -169,7 +176,8 @@ function deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, n
             code(:, jj) = code_;
 		end 
         
-        save(output_file, 'code', '-v7.3');
+        sge_save(output_file, code);
+        %save(output_file, 'code', '-v7.3');
     end
     	
     %toc
