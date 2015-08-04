@@ -24,11 +24,14 @@ function deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, n
     elseif strcmp(dataset, 'med15eval'),
         meta_file = '/net/per610a/export/das11f/plsang/trecvidmed/metadata/med15/med15_eval.mat';
         load(meta_file);
+    elseif strcmp(dataset, 'med15ah'),
+        meta_file = '/net/per610a/export/das11f/plsang/trecvidmed/metadata/med15/med15_ah.mat';   
+        load(meta_file);    
     else
         error('unknown dataset <%s> \n', dataset);
     end
     
-	supported_pat_list = {'ek100ps14', 'ek10ps14', 'bg', 'kindred14', 'medtest14', 'train12', 'test12', 'train14', 'med15eval'};
+	supported_pat_list = {'ek100ps14', 'ek10ps14', 'bg', 'kindred14', 'medtest14', 'train12', 'test12', 'train14', 'med15eval', 'med15ah'};
 	
 	    clips = []; 
     durations = [];
@@ -56,6 +59,18 @@ function deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, n
                     end
                     clips_ = clips_(sel_idx);
                     durations_ = durations_(sel_idx);
+                case 'ek10ps14'
+                    clips_ = MEDMD.EventKit.EK10Ex.clips;
+                    durations_ = MEDMD.EventKit.EK10Ex.durations;
+                    %% only select e20-e40
+                    sel_idx = zeros(1, length(clips_));
+                    for ii=21:40,
+                        event_id = sprintf('E%03d', ii);
+                        sel_idx = sel_idx | ismember(clips_, MEDMD.EventKit.EK10Ex.judge.(event_id).positive);
+                        sel_idx = sel_idx | ismember(clips_, MEDMD.EventKit.EK10Ex.judge.(event_id).miss);
+                    end
+                    clips_ = clips_(sel_idx);
+                    durations_ = durations_(sel_idx);    
                 case 'train12'
                     clips_ = MEDMD.Train.clips;
                     durations_ = MEDMD.Train.durations;
@@ -76,6 +91,9 @@ function deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, n
                 case 'med15eval'
                     clips_ =  MEDMD.UnrefTest.MED15EvalFull.clips;
 					durations_ = MEDMD.UnrefTest.MED15EvalFull.durations;
+                case 'med15ah'    
+                    clips_ =  MEDMD.EventKit.EK10Ex.clips;
+                    durations_ = MEDMD.EventKit.EK10Ex.durations;    
             end
             
             clips = [clips, clips_];
