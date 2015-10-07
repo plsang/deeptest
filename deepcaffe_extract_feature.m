@@ -7,6 +7,7 @@ function deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, n
         fprintf('Usage: deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, start_seg, end_seg ) \n');
         fprintf(' @param: model_name (caffe, places205, placeshybrid, verydeep) \n');
 		fprintf(' @param: pat_list (ek100ps14, ek10ps14, bg, kindred14, medtest14, train12, test12, train14) \n');
+        fprintf(' @param: layer_name (fc6, fc7, full) \n');
 		fprintf(' @varargin: numlayer (16, 19) (for verydeep network) \n');
 		fprintf(' @varargin: start - start_seg \n');
 		fprintf(' @varargin: end - end_seg \n');
@@ -27,11 +28,14 @@ function deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, n
     elseif strcmp(dataset, 'med15ah'),
         meta_file = '/net/per610a/export/das11f/plsang/trecvidmed/metadata/med15/med15_ah.mat';   
         load(meta_file);    
+    elseif strcmp(dataset, 'med2011'),
+        meta_file = '/net/per610a/export/das11f/plsang/trecvidmed/metadata/med11/medmd_2011.mat';
+        load(meta_file);        
     else
         error('unknown dataset <%s> \n', dataset);
     end
     
-	supported_pat_list = {'ek100ps14', 'ek10ps14', 'bg', 'kindred14', 'medtest14', 'train12', 'test12', 'train14', 'med15eval', 'med15ah'};
+	supported_pat_list = {'ek100ps14', 'ek10ps14', 'bg', 'kindred14', 'medtest14', 'train12', 'test12', 'train14', 'med15eval', 'med15ah', 'med2011'};
 	
 	    clips = []; 
     durations = [];
@@ -94,6 +98,9 @@ function deepcaffe_extract_feature( model_name, dataset, pat_list, layer_name, n
                 case 'med15ah'    
                     clips_ =  MEDMD.EventKit.EK10Ex.clips;
                     durations_ = MEDMD.EventKit.EK10Ex.durations;    
+                case 'med2011'
+                    clips_ = [MEDMD.EventKit.EK130Ex.clips, MEDMD.RefTest.MED11TEST.clips];
+                    durations_ = [MEDMD.EventKit.EK130Ex.durations, MEDMD.RefTest.MED11TEST.durations];
             end
             
             clips = [clips, clips_];
